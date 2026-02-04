@@ -1,0 +1,299 @@
+{
+  "book": {
+    "title_en": "Grade 4 Physical Education",
+    "title_my": "ကာယပညာ စတုတ္ထတန်း",
+    "grade": 4,
+    "languages": [
+      "my"
+    ]
+  },
+  "intro": [
+    {
+      "page": 1,
+      "title_en": "Book Cover",
+      "title_my": "စာအုပ်မျက်နှာဖုံး",
+      "description_en": "Government of the Republic of the Union of Myanmar, Ministry of Education. Physical Education Grade 4.",
+      "description_my": "ပြည်ထောင်စုသမ္မတမြန်မာနိုင်ငံတော်အစိုးရ၊ ပညာရေးဝန်ကြီးဌာန။ ကာယပညာ စတုတ္ထတန်း။"
+    },
+    {
+      "page": 3,
+      "title_en": "Copyright and Technical Support",
+      "title_my": "မူပိုင်ခွင့်နှင့် နည်းပညာပံ့ပိုးမှု",
+      "description_en": "Copyright of Basic Education Curriculum, Syllabus and Textbook Committee. Technical support provided by JICA.",
+      "description_my": "အခြေခံပညာ သင်ရိုးညွှန်းတမ်း၊ သင်ရိုးမာတိကာနှင့် ကျောင်းသုံးစာအုပ်ကော်မတီ၏ မူပိုင်ဖြစ်သည်။ JICA မှ နည်းပညာပံ့ပိုးကူညီထားသည်။"
+    }
+  ],
+  "table_of_contents": [
+    {
+      "part_id": 1,
+      "part_title_en": "Basic Physical Education Lessons",
+      "part_title_my": "အခြေခံကာယပညာသင်ခန်းစာများ",
+      "sections": [
+        {
+          "lesson_id": 1,
+          "title_en": "Lining Up",
+          "title_my": "တန်းစီခြင်း",
+          "page": 1,
+          "about": {
+            "description_en": "Teaches students how to line up systematically and perform formations correctly.",
+            "description_my": "တန်းစီခြင်းကို စနစ်တကျလုပ်ဆောင်တတ်စေရန်နှင့် ပုံစံများကို မှန်ကန်စွာ လုပ်ဆောင်တတ်စေရန် သင်ကြားပေးသည်။"
+          }
+        },
+        {
+          "lesson_id": 2,
+          "title_en": "Exercises Before and After Playing",
+          "title_my": "မကစားမီနှင့် ကစားပြီးလုပ်ဆောင်ရမည့် လေ့ကျင့်ခန်းများ",
+          "page": 2,
+          "about": {
+            "description_en": "Demonstrates warm-up and cool-down exercises essential for preventing injuries.",
+            "description_my": "ကစားခြင်းမပြုမီနှင့် ကစားပြီးနောက် ပြုလုပ်ရမည့် သွေးပူလေ့ကျင့်ခန်းနှင့် အကြောလျှော့လေ့ကျင့်ခန်းများကို ဖော်ပြထားသည်။"
+          }
+        },
+        {
+          "lesson_id": 3,
+          "title_en": "Group Physical Fitness Exercises (Set 1)",
+          "title_my": "စုပေါင်းကိုယ်လက်ကြံ့ခိုင်ရေးလေ့ကျင့်ခန်း(အတွဲအမှတ်-၁)",
+          "page": 4,
+          "about": {
+            "description_en": "A set of 12 group exercises designed to improve overall physical fitness.",
+            "description_my": "ကျန်းမာကြံ့ခိုင်စေရန်အတွက် စုပေါင်းပြုလုပ်ရမည့် ကိုယ်လက်ကြံ့ခိုင်ရေးလေ့ကျင့်ခန်း (၁၂) မျိုးကို သင်ကြားပေးသည်။"
+          }
+        }
+      ]
+    },
+    {
+      "part_id": 2,
+      "part_title_en": "Physical Skills",
+      "part_title_my": "ကိုယ်လက်လှုပ်ရှားမှုစွမ်းရည်များ",
+      "sections": [
+        {
+          "lesson_id": 4,
+          "title_en": "Jumping",
+          "title_my": "ခုန်ခြင်း",
+          "page": 14,
+          "about": {
+            "description_en": "Practicing various jumping techniques to improve leg strength and coordination.",
+            "description_my": "ခြေထောက်ကြွက်သားများ သန်မာစေရန်နှင့် ဟန်ချက်ညီစေရန် ခုန်ခြင်းလေ့ကျင့်ခန်းများကို ပြုလုပ်သည်။"
+          }
+        },
+        {
+          "lesson_id": 5,
+          "title_en": "Running",
+          "title_my": "ပြေးခြင်း",
+          "page": 16,
+          "about": {
+            "description_en": "Learning proper running forms and techniques.",
+            "description_my": "မှန်ကန်သော ပြေးခြင်းနည်းစနစ်များနှင့် ပုံစံများကို လေ့ကျင့်သင်ကြားပေးသည်။"
+          }
+        },
+        {
+          "lesson_id": 6,
+          "title_en": "Balance Exercises",
+          "title_my": "ဟန်ချက်ညီမျှမှု(ချိန်ဆမှု) လေ့ကျင့်ခန်းများ",
+          "page": 20,
+          "about": {
+            "description_en": "Exercises focused on maintaining body balance and stability.",
+            "description_my": "ခန္ဓာကိုယ်ဟန်ချက်ညီစေရန်နှင့် တည်ငြိမ်မှုရှိစေရန် လေ့ကျင့်ခန်းများကို ပြုလုပ်သည်။"
+          }
+        },
+        {
+          "lesson_id": 7,
+          "title_en": "Playing with Ball",
+          "title_my": "ဘောလုံးဖြင့်ကစားခြင်း",
+          "page": 24,
+          "about": {
+            "description_en": "Basic skills for handling, throwing, and catching a ball.",
+            "description_my": "ဘောလုံးကို ကိုင်တွယ်ခြင်း၊ ပစ်ခြင်းနှင့် ဖမ်းခြင်းဆိုင်ရာ အခြေခံစွမ်းရည်များကို လေ့ကျင့်သည်။"
+          }
+        },
+        {
+          "lesson_id": 8,
+          "title_en": "Rope Skipping",
+          "title_my": "ကြိုးခုန်ခြင်း",
+          "page": 28,
+          "about": {
+            "description_en": "Techniques for jumping rope individually or in groups to improve agility.",
+            "description_my": "သွက်လက်ဖျတ်လတ်စေရန် တစ်ဦးချင်း သို့မဟုတ် အဖွဲ့လိုက် ကြိုးခုန်နည်းများကို လေ့ကျင့်သည်။"
+          }
+        }
+      ]
+    },
+    {
+      "part_id": 3,
+      "part_title_en": "Games",
+      "part_title_my": "ကစားနည်းများ",
+      "sections": [
+        {
+          "lesson_id": 9,
+          "title_en": "Combined Games",
+          "title_my": "ပေါင်းစပ်ကစားနည်း",
+          "page": 34,
+          "about": {
+            "description_en": "Games that combine various physical skills learned in previous lessons.",
+            "description_my": "သင်ကြားခဲ့သော ကိုယ်လက်လှုပ်ရှားမှုစွမ်းရည်များကို ပေါင်းစပ်အသုံးပြုရသည့် ကစားနည်းများဖြစ်သည်။"
+          }
+        },
+        {
+          "lesson_id": 10,
+          "title_en": "Game 1: Last One Standing is King",
+          "title_my": "နောက်ဆုံးကျန်လျှင်သင်ဘုရင်ကစားနည်း",
+          "page": 36,
+          "about": {
+            "description_en": "A competitive elimination game where the last player remaining wins.",
+            "description_my": "နောက်ဆုံးကျန်ရစ်သူ အနိုင်ရသည့် ယှဉ်ပြိုင်ကစားနည်းဖြစ်သည်။"
+          }
+        },
+        {
+          "lesson_id": 11,
+          "title_en": "Game 2: Partner Game",
+          "title_my": "လူတွဲကစားနည်း",
+          "page": 38,
+          "about": {
+            "description_en": "A game played in pairs to foster cooperation.",
+            "description_my": "ပူးပေါင်းဆောင်ရွက်မှု တိုးတက်စေရန် နှစ်ယောက်တစ်တွဲ ကစားရသော ကစားနည်းဖြစ်သည်။"
+          }
+        },
+        {
+          "lesson_id": 12,
+          "title_en": "Game 3: Fill the Gap",
+          "title_my": "နေရာလပ်ဝင်ကစားနည်း",
+          "page": 40,
+          "about": {
+            "description_en": "A game involving movement and occupying empty spaces quickly.",
+            "description_my": "သွက်လက်စွာ လှုပ်ရှားပြီး နေရာလပ်ကို ဦးစွာဝင်ရောက်ရသည့် ကစားနည်းဖြစ်သည်။"
+          }
+        },
+        {
+          "lesson_id": 13,
+          "title_en": "Game 4: Tunnel Running",
+          "title_my": "လိုဏ်ခေါင်းလျှိုပြေးကစားနည်း",
+          "page": 42,
+          "about": {
+            "description_en": "A fun relay-style game involving running through a human tunnel.",
+            "description_my": "လူများဖြင့် ပြုလုပ်ထားသော လိုဏ်ခေါင်းအတွင်း ဖြတ်သန်းပြေးလွှားရသော ပျော်ရွှင်ဖွယ် ကစားနည်းဖြစ်သည်။"
+          }
+        },
+        {
+          "lesson_id": 14,
+          "title_en": "Game 5: Untying the Ribbon",
+          "title_my": "ဖဲကြိုးဖြုတ်ကစားနည်း",
+          "page": 44,
+          "about": {
+            "description_en": "A game focused on dexterity and speed in untying ribbons.",
+            "description_my": "ဖဲကြိုးများကို လျင်မြန်စွာ ဖြုတ်ယူရသည့် စွမ်းရည်ပြ ကစားနည်းဖြစ်သည်။"
+          }
+        },
+        {
+          "lesson_id": 15,
+          "title_en": "Game 6: Ball Carrying",
+          "title_my": "ဘောလုံးသယ်ကစားနည်း",
+          "page": 46,
+          "about": {
+            "description_en": "Relay game involving carrying a ball without dropping it.",
+            "description_my": "ဘောလုံးမကျစေရန် သယ်ဆောင်ပြေးလွှားရသည့် လက်ဆင့်ကမ်း ကစားနည်းဖြစ်သည်။"
+          }
+        },
+        {
+          "lesson_id": 16,
+          "title_en": "Game 7: Pity Fishing",
+          "title_my": "သနားစရာငါးမျှားကစားနည်း",
+          "page": 48,
+          "about": {
+            "description_en": "A game simulating fishing, likely involving coordination and timing.",
+            "description_my": "ငါးမျှားခြင်းကို တုပထားပြီး ချိန်ဆမှုနှင့် ပူးပေါင်းဆောင်ရွက်မှုပါဝင်သော ကစားနည်းဖြစ်သည်။"
+          }
+        },
+        {
+          "lesson_id": 17,
+          "title_en": "Game 8: Train Carriage",
+          "title_my": "မီးရထားတွဲကစားနည်း",
+          "page": 50,
+          "about": {
+            "description_en": "Group game where students form a line like a train.",
+            "description_my": "မီးရထားတွဲကဲ့သို့ တန်းစီ၍ ညီညာစွာ လှုပ်ရှားကစားရသော ကစားနည်းဖြစ်သည်။"
+          }
+        },
+        {
+          "lesson_id": 18,
+          "title_en": "Game 9: Balance Game",
+          "title_my": "ဟန်ချက်ညီကစားနည်း",
+          "page": 52,
+          "about": {
+            "description_en": "A competitive game testing players' balance.",
+            "description_my": "ဟန်ချက်ထိန်းသိမ်းမှု စွမ်းရည်ကို ယှဉ်ပြိုင်သော ကစားနည်းဖြစ်သည်။"
+          }
+        },
+        {
+          "lesson_id": 19,
+          "title_en": "Game 10: Three-in-a-Row",
+          "title_my": "သုံးကွက်တန်းကစားနည်း",
+          "page": 54,
+          "about": {
+            "description_en": "A physical version of tic-tac-toe involving running.",
+            "description_my": "ပြေးလွှားခြင်းနှင့် စဉ်းစားတွေးခေါ်ခြင်း ပေါင်းစပ်ထားသော သုံးကွက်တန်း ကစားနည်းဖြစ်သည်။"
+          }
+        },
+        {
+          "lesson_id": 20,
+          "title_en": "Game 11: Picking Up Eggs",
+          "title_my": "ကြက်ဥကောက်ကစားနည်း",
+          "page": 56,
+          "about": {
+            "description_en": "A relay race involving picking up objects (eggs) efficiently.",
+            "description_my": "ပစ္စည်း (ကြက်ဥ) များကို လျင်မြန်စွာ ကောက်ယူစုဆောင်းရသော ပြိုင်ပွဲဖြစ်သည်။"
+          }
+        },
+        {
+          "lesson_id": 21,
+          "title_en": "Game 12: Snake (Winding)",
+          "title_my": "မြွေလိမ်မြွေကောက်ကစားနည်း",
+          "page": 60,
+          "about": {
+            "description_en": "Running or moving in a curved, snake-like path.",
+            "description_my": "မြွေသွားကဲ့သို့ ကွေ့ကောက်သော လမ်းကြောင်းအတိုင်း ပြေးလွှားကစားရသော နည်းဖြစ်သည်။"
+          }
+        },
+        {
+          "lesson_id": 22,
+          "title_en": "Game 13: Relay Race",
+          "title_my": "လက်ဆင့်ကမ်းပြေးခြင်းကစားနည်း",
+          "page": 64,
+          "about": {
+            "description_en": "Standard baton relay racing.",
+            "description_my": "အုတ်ခဲ သို့မဟုတ် တုတ်တံကို လက်ဆင့်ကမ်း သယ်ဆောင်ပြေးရသော ပြိုင်ပွဲဖြစ်သည်။"
+          }
+        },
+        {
+          "lesson_id": 23,
+          "title_en": "Game 14: Carrying Ball with Chopsticks",
+          "title_my": "ပိုက်တံဖြင့်ဘောလုံးသယ်ကစားနည်း",
+          "page": 68,
+          "about": {
+            "description_en": "A balance and coordination game using sticks to carry a ball.",
+            "description_my": "ပိုက်တံ (တုတ်ချောင်း) ဖြင့် ဘောလုံးကို မကျအောင် သယ်ဆောင်ရသော ကစားနည်းဖြစ်သည်။"
+          }
+        },
+        {
+          "lesson_id": 24,
+          "title_en": "Game 15: Mini Basketball",
+          "title_my": "မီနီဘတ်စကက်ဘောကစားနည်း",
+          "page": 71,
+          "about": {
+            "description_en": "Simplified basketball game for students.",
+            "description_my": "ကျောင်းသားများအတွက် ရိုးရှင်းသော ဘတ်စကက်ဘော ကစားနည်းဖြစ်သည်။"
+          }
+        },
+        {
+          "lesson_id": 25,
+          "title_en": "Game 16: Mini Volleyball / Ball Throwing / Small Ball Games",
+          "title_my": "မီနီဘော်လီဘော / ဘောလုံးပစ်ပေး / ဘောလုံးပွဲငယ်",
+          "page": 76,
+          "about": {
+            "description_en": "Introduction to volleyball concepts, ball throwing techniques, and small-sided ball games.",
+            "description_my": "ဘော်လီဘော အခြေခံများ၊ ဘောလုံးပစ်နည်းများနှင့် ဘောလုံးပွဲငယ်များကို မိတ်ဆက်ပေးထားသည်။"
+          }
+        }
+      ]
+    }
+  ]
+}

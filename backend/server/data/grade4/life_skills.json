@@ -1,0 +1,209 @@
+{
+  "book": {
+    "title_en": "Grade 4 Life Skills",
+    "title_my": "ဘဝတွက်တာကျွမ်းကျင်စရာ စတုတ္ထတန်း",
+    "grade": 4,
+    "languages": [
+      "my"
+    ]
+  },
+  "intro": [
+    {
+      "page": 1,
+      "title_en": "Book Cover",
+      "title_my": "စာအုပ်မျက်နှာဖုံး",
+      "description_en": "Government of the Republic of the Union of Myanmar, Ministry of Education. Life Skills Grade 4.",
+      "description_my": "ပြည်ထောင်စုသမ္မတမြန်မာနိုင်ငံတော်အစိုးရ၊ ပညာရေးဝန်ကြီးဌာန။ ဘဝတွက်တာကျွမ်းကျင်စရာ စတုတ္ထတန်း။"
+    },
+    {
+      "page": 3,
+      "title_en": "Copyright and Technical Support",
+      "title_my": "မူပိုင်ခွင့်နှင့် နည်းပညာပံ့ပိုးမှု",
+      "description_en": "Copyright of Basic Education Curriculum, Syllabus and Textbook Committee. Technical support provided by JICA.",
+      "description_my": "အခြေခံပညာ သင်ရိုးညွှန်းတမ်း၊ သင်ရိုးမာတိကာနှင့် ကျောင်းသုံးစာအုပ်ကော်မတီ၏ မူပိုင်ဖြစ်သည်။ JICA မှ နည်းပညာပံ့ပိုးကူညီထားသည်။"
+    }
+  ],
+  "table_of_contents": [
+    {
+      "part_id": 1,
+      "part_title_en": "Disease-free Health",
+      "part_title_my": "ရောဂါကင်းဝေး ကျန်းမာရေး",
+      "sections": [
+        {
+          "lesson_id": 1,
+          "title_en": "Let's Stay Healthy",
+          "title_my": "ကျန်းမာအောင်နေကြမယ်",
+          "page": 1,
+          "about": {
+            "description_en": "Discusses the three pillars of health: eating nutritious food, regular physical exercise, and getting enough sleep.",
+            "description_my": "ကျန်းမာကြံ့ခိုင်စေရန်အတွက် အာဟာရပြည့်ဝအောင်စားခြင်း၊ ကိုယ်လက်လှုပ်ရှားမှုပြုလုပ်ခြင်းနှင့် အိပ်ရေးဝအောင်အိပ်ခြင်းတို့၏ အရေးပါပုံကို ရှင်းပြထားသည်။"
+          }
+        },
+        {
+          "lesson_id": 2,
+          "title_en": "Eat Safely",
+          "title_my": "အန္တရာယ်ကင်းစွာ စားသုံးပါ",
+          "page": 6,
+          "about": {
+            "description_en": "Teaches how to check food labels for expiration dates (MFG/EXP) and identify unsafe ingredients like chemical dyes.",
+            "description_my": "အစားအစာများဝယ်ယူရာတွင် သက်တမ်းကုန်ဆုံးရက် (EXP) ကြည့်ရှုခြင်းနှင့် ဓာတုဆိုးဆေးပါသော အစားအစာများကို ရှောင်ကြဉ်တတ်စေရန် သင်ကြားပေးသည်။"
+          }
+        },
+        {
+          "lesson_id": 3,
+          "title_en": "Dangers of Smoking",
+          "title_my": "ဆေးလိပ်အန္တရာယ်",
+          "page": 11,
+          "about": {
+            "description_en": "Educates about the harmful effects of smoking on the lungs and overall health, and encourages avoiding tobacco.",
+            "description_my": "ဆေးလိပ်သောက်ခြင်း၏ ဆိုးကျိုးများနှင့် ကျန်းမာရေးထိခိုက်နိုင်ပုံများကို သတိပေးထားပြီး ဆေးလိပ်ကို ရှောင်ကြဉ်ရန် တိုက်တွန်းထားသည်။"
+          }
+        },
+        {
+          "lesson_id": 4,
+          "title_en": "What is First Aid?",
+          "title_my": "ရှေးဦးပြုစုခြင်းဆိုတာ",
+          "page": 14,
+          "about": {
+            "description_en": "Introduction to basic first aid techniques for common injuries like cuts and minor accidents.",
+            "description_my": "ထိခိုက်ဒဏ်ရာရရှိချိန်တွင် ပြုလုပ်ရမည့် အခြေခံ ရှေးဦးပြုစုနည်းများကို မိတ်ဆက်ပေးထားသည်။"
+          }
+        },
+        {
+          "lesson_id": 5,
+          "title_en": "Prevent Malaria",
+          "title_my": "ငှက်ဖျားရောဂါကာကွယ်ပါ",
+          "page": 20,
+          "about": {
+            "description_en": "Explains the life cycle of mosquitoes and methods to prevent malaria transmission.",
+            "description_my": "ခြင်မှတဆင့်ကူးစက်တတ်သော ငှက်ဖျားရောဂါအကြောင်းနှင့် ကာကွယ်ရမည့် နည်းလမ်းများကို ရှင်းပြထားသည်။"
+          }
+        },
+        {
+          "lesson_id": 6,
+          "title_en": "HIV/AIDS",
+          "title_my": "HIV/AIDS",
+          "page": 22,
+          "about": {
+            "description_en": "Provides age-appropriate awareness about HIV/AIDS, its transmission, and prevention.",
+            "description_my": "HIV/AIDS ရောဂါအကြောင်း၊ ကူးစက်နိုင်ပုံနှင့် ကာကွယ်ရန်နည်းလမ်းများကို အသိပညာပေးထားသည်။"
+          }
+        },
+        {
+          "lesson_id": 7,
+          "title_en": "Adolescence",
+          "title_my": "ဆယ်ကျော်သက်အရွယ်",
+          "page": 26,
+          "about": {
+            "description_en": "Discusses the physical and mental changes that occur during adolescence.",
+            "description_my": "ဆယ်ကျော်သက်အရွယ်တွင် ဖြစ်ပေါ်လာသော ခန္ဓာကိုယ်နှင့် စိတ်ပိုင်းဆိုင်ရာ ပြောင်းလဲမှုများကို ဆွေးနွေးထားသည်။"
+          }
+        }
+      ]
+    },
+    {
+      "part_id": 2,
+      "part_title_en": "Skills for Social Life",
+      "part_title_my": "လူမှုဘဝမှာ ကျွမ်းကျင်စရာ",
+      "sections": [
+        {
+          "lesson_id": 8,
+          "title_en": "Living Harmoniously",
+          "title_my": "သင့်သင့်မြတ်မြတ်နေကြမယ်",
+          "page": 28,
+          "about": {
+            "description_en": "Focuses on building good relationships and living peacefully with others in the community.",
+            "description_my": "ပတ်ဝန်းကျင်ရှိလူများနှင့် သင့်မြတ်စွာ ပေါင်းသင်းဆက်ဆံနေထိုင်ရေးကို ဦးစားပေးဖော်ပြထားသည်။"
+          }
+        },
+        {
+          "lesson_id": 9,
+          "title_en": "Let's Work Together",
+          "title_my": "ဝိုင်းဝန်းပါဝင်လုပ်စေချင်",
+          "page": 32,
+          "about": {
+            "description_en": "Encourages teamwork and participation in community activities.",
+            "description_my": "အများအကျိုးဆောင်ရွက်မှုများတွင် ပူးပေါင်းပါဝင်ဆောင်ရွက်တတ်စေရန် တိုက်တွန်းထားသည်။"
+          }
+        },
+        {
+          "lesson_id": 10,
+          "title_en": "Use Beneficially",
+          "title_my": "အကျိုးရှိရှိ သုံးကြစို့",
+          "page": 36,
+          "about": {
+            "description_en": "Teaches how to use resources and time effectively for personal and public benefit.",
+            "description_my": "အချိန်နှင့် အရင်းအမြစ်များကို အကျိုးရှိစွာ အသုံးပြုတတ်စေရန် သင်ကြားပေးသည်။"
+          }
+        },
+        {
+          "lesson_id": 11,
+          "title_en": "Let's Follow Traffic Rules for Safety",
+          "title_my": "အန္တရာယ်ကင်းစွာသွားလာဖို့ စည်းကမ်းလိုက်နာကြပါစို့",
+          "page": 40,
+          "about": {
+            "description_en": "Highlights road safety rules and the importance of following traffic regulations.",
+            "description_my": "ယာဉ်စည်းကမ်း လမ်းစည်းကမ်းများကို လိုက်နာခြင်းဖြင့် ဘေးကင်းလုံခြုံစွာ သွားလာနိုင်ပုံကို ဖော်ပြထားသည်။"
+          }
+        },
+        {
+          "lesson_id": 12,
+          "title_en": "Be a Worthy Person",
+          "title_my": "တန်ဖိုးရှိသူဖြစ်ပါစေ",
+          "page": 44,
+          "about": {
+            "description_en": "Encourages students to develop self-worth and good character traits.",
+            "description_my": "မိမိကိုယ်ကို တန်ဖိုးထားတတ်ရန်နှင့် ကိုယ်ကျင့်တရားကောင်းမွန်သူဖြစ်လာစေရန် အားပေးထားသည်။"
+          }
+        },
+        {
+          "lesson_id": 13,
+          "title_en": "Let No One Be Harmed",
+          "title_my": "ဘယ်သူမှမထိခိုက်ပါစေနဲ့",
+          "page": 48,
+          "about": {
+            "description_en": "Teaches empathy and ensuring one's actions do not negatively affect others.",
+            "description_my": "မိမိ၏ လုပ်ရပ်ကြောင့် တစ်ပါးသူ ထိခိုက်နစ်နာမှု မရှိစေရန် ဂရုပြုသင့်ပုံကို သင်ကြားပေးသည်။"
+          }
+        }
+      ]
+    },
+    {
+      "part_id": 3,
+      "part_title_en": "Preserving Environment and Living Adaptably",
+      "part_title_my": "သဘာဝဝန်းကျင်ထိန်းသိမ်းလို့ လိုက်လျောညီထွေနေထိုင်ဖို့",
+      "sections": [
+        {
+          "lesson_id": 14,
+          "title_en": "Must Change",
+          "title_my": "ပြောင်းလဲမှ ဖြစ်မယ်",
+          "page": 52,
+          "about": {
+            "description_en": "Discusses the need for behavioral changes to protect the environment.",
+            "description_my": "သဘာဝပတ်ဝန်းကျင်ကို ထိန်းသိမ်းရန်အတွက် ပြုပြင်ပြောင်းလဲရမည့် အလေ့အကျင့်များကို ဆွေးနွေးထားသည်။"
+          }
+        },
+        {
+          "lesson_id": 15,
+          "title_en": "Nature and Living Things",
+          "title_my": "သဘာဝနှင့် သက်ရှိများ",
+          "page": 56,
+          "about": {
+            "description_en": "Explores the relationship between nature and living organisms.",
+            "description_my": "သဘာဝတရားနှင့် သက်ရှိများအကြား အပြန်အလှန် ဆက်နွယ်မှုကို ဖော်ပြထားသည်။"
+          }
+        },
+        {
+          "lesson_id": 16,
+          "title_en": "Preventing Disasters",
+          "title_my": "ကြိုတင်ကာကွယ် ဘေးအန္တရာယ်",
+          "page": 60,
+          "about": {
+            "description_en": "Teaches preparedness and prevention measures for natural disasters.",
+            "description_my": "သဘာဝဘေးအန္တရာယ်များကို ကြိုတင်ကာကွယ်ရန်နှင့် ပြင်ဆင်ထားသင့်သည်များကို သင်ကြားပေးသည်။"
+          }
+        }
+      ]
+    }
+  ]
+}

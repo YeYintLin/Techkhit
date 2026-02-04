@@ -2,32 +2,41 @@
 export function searchBook(query, bookData) {
   if (!bookData || !bookData.table_of_contents) return null;
 
-  // Convert Myanmar numbers to English
-  const myNumMap = { "၀":"0","၁":"1","၂":"2","၃":"3","၄":"4","၅":"5","၆":"6","၇":"7","၈":"8","၉":"9" };
-  const convertedQuery = query.replace(/[၀-၉]/g, d => myNumMap[d]);
+  // Convert Myanmar numerals to Arabic numerals
+  function myanmarNumberToArabic(str) {
+    return str.replace(/[၀-၉]/g, m => String("၀၁၂၃၄၅၆၇၈၉".indexOf(m)));
+  }
 
-  const lowerQuery = convertedQuery.toLowerCase();
+  const lowerQuery = query.toLowerCase();
+  const queryArabic = myanmarNumberToArabic(query);
 
-  // Try to find a lesson number in the query
-  const numberMatch = convertedQuery.match(/\d+/); // extract numbers
+  // Try to find lesson number
+  const numberMatch = queryArabic.match(/\d+/);
   const lessonNumber = numberMatch ? parseInt(numberMatch[0]) : null;
 
-  for (const part of bookData.table_of_contents) {
-    for (const section of part.sections) {
-      // Check if lesson number matches
-      if (lessonNumber && section.lesson_id === lessonNumber) {
-        return section;
-      }
+  for (const lesson of bookData.table_of_contents) {
+    // 1️⃣ Check lesson ID
+    if (lessonNumber && lesson.lesson_id === lessonNumber) return lesson;
 
-      // Check if title matches
-      const titleMatch = (section.title_en || "").toLowerCase().includes(lowerQuery) ||
-                         (section.title_my || "").includes(query);
+    // 2️⃣ Check title
+    const titleMatch = (lesson.title_en || "").toLowerCase().includes(lowerQuery) ||
+                       (lesson.title_my || "").includes(query);
+    if (titleMatch) return lesson;
 
-      if (titleMatch) {
-        return section;
+    // 3️⃣ Check about/description
+    const aboutMatch = (lesson.about?.description_en || "").toLowerCase().includes(lowerQuery) ||
+                       (lesson.about?.description_my || "").includes(query);
+    if (aboutMatch) return lesson;
+
+    // 4️⃣ Optional: subsections
+    if (lesson.subsections) {
+      for (const sub of lesson.subsections) {
+        const subMatch = (sub.title_en || "").toLowerCase().includes(lowerQuery) ||
+                         (sub.title_my || "").includes(query);
+        if (subMatch) return sub;
       }
     }
   }
 
-  return null; // no match
+  return null;
 }

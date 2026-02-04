@@ -1,0 +1,169 @@
+{
+  "book": {
+    "title_en": "Social Studies Text (Grade 4)",
+    "title_my": "စတုတ္ထတန်း လူမှုရေးရာ",
+    "grade": 4,
+    "languages": ["my"]
+  },
+  "intro": [
+    {
+      "page": 1,
+      "title_en": "Book Cover",
+      "title_my": "စာအုပ်မျက်နှာဖုံး",
+      "description_en": "This is the front cover of the Grade 4 Social Studies textbook.",
+      "description_my": "စတုတ္ထတန်း လူမှုရေးရာ ဖတ်စာအုပ်၏ ရှေ့မျက်နှာဖုံးဖြစ်သည်။"
+    }
+  ],
+  "table_of_contents": [
+    {
+      "lesson_id": 1,
+      "title_en": "Our Country (Myanmar)",
+      "title_my": "ကျွန်ုပ်တို့၏နိုင်ငံ (မြန်မာနိုင်ငံ)",
+      "page": 1,
+      "about": {
+        "description_en": "Learn about Myanmar's location, physical features, climate, and administrative divisions.",
+        "description_my": "မြန်မာနိုင်ငံ၏ တည်နေရာ၊ မြေမျက်နှာသွင်ပြင်၊ ရာသီဥတု၊ ပြည်နယ်နှင့် တိုင်းဒေသကြီးများကို သင်ယူကြမယ်။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Location and Physical Features",
+          "title_my": "(၁-၁) မြန်မာနိုင်ငံရဲ့ တည်နေရာနဲ့ မြေမျက်နှာသွင်ပြင် အခြေအနေတွေ ဘယ်လိုရှိသလဲ",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/6350745b-7fc1-46b2-84e2-b36542dcfb18"
+        },
+        {
+          "video_id": 2,
+          "title_en": "Physical Features and Climate Connection",
+          "title_my": "(၁-၂) မြန်မာနိုင်ငံရဲ့ မြေမျက်နှာသွင်ပြင်တွေနဲ့ ရာသီဥတု အခြေအနေတွေ ဘယ်လိုဆက်နွှယ်နေသလဲ သဘာဝအပိုင်းကြီးတွေကို ဘယ်လိုပိုင်းခြားထားသလဲ",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/04b75bf1-c5b8-4c36-90ea-ab0890c4d189"
+        },
+        {
+          "video_id": 3,
+          "title_en": "States, Regions, and Union Territories",
+          "title_my": "(၁-၃) မြန်မာနိုင်ငံရဲ့ ပြည်နယ်၊ တိုင်းဒေသကြီးနဲ့ ပြည်ထောင်စုနယ်မြေတွေက ဘာတွေလဲ ဘယ်သူတွေဘယ်လိုနေထိုင်ကြသလဲ",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/0a523b61-2a80-43f2-b94c-31bed9d92d39"
+        }
+      ]
+    },
+    {
+      "lesson_id": 2,
+      "title_en": "Eastern Highland Region",
+      "title_my": "အရှေ့ဘက်ကုန်းမြင့်ဒေသ",
+      "page": 10,
+      "about": {
+        "description_en": "Explore the geography and social life of the Eastern Highlands.",
+        "description_my": "အရှေ့ဘက်ကုန်းမြင့်ဒေသ၏ တည်နေရာ၊ မြေမျက်နှာသွင်ပြင်၊ ရာသီဥတုနှင့် လူမှုဘဝအခြေအနေများကို လေ့လာပါ။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Location, Terrain, and Climate",
+          "title_my": "(၂-၁) အရှေ့ဘက်ကုန်းမြင့်ဒေသရဲ့ တည်နေရာ၊ မြေမျက်နှာသွင်ပြင်နဲ့ ရာသီဥတု အခြေအနေတွေ ဘယ်လိုရှိသလဲ",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/6875b391-62ed-4c67-8f41-2a8a14c80c8a"
+        },
+        {
+          "video_id": 2,
+          "title_en": "Social Life",
+          "title_my": "(၂-၂) အရှေ့ဘက်ကုန်းမြင့်ဒေသရဲ့ လူမှုဘဝအခြေအနေတွေက ဘယ်လိုလဲ",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/61481b9a-87df-48d0-9c65-45522286e22e"
+        }
+      ]
+    },
+    {
+      "lesson_id": 3,
+      "title_en": "Western Mountain Region",
+      "title_my": "အနောက်ဘက်တောင်တန်းဒေသ",
+      "page": 20,
+      "about": {
+        "description_en": "Learn about the geography and society of the Western Mountain Region.",
+        "description_my": "အနောက်ဘက်တောင်တန်းဒေသ၏ တည်နေရာ၊ မြေမျက်နှာသွင်ပြင်၊ ရာသီဥတုနှင့် လူမှုဘဝအခြေအနေများကို သိပါ။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Location, Terrain, and Climate",
+          "title_my": "(၃-၁) အ‌နောက်ဘက်တောင်တန်းဒေသရဲ့ တည်နေရာ၊ မြေမျက်နှာသွင်ပြင်နဲ့ ရာသီဥတု အခြေအနေတွေ ဘယ်လိုရှိသလဲ",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/b172611b-17cb-4aa6-a019-6182a8422c33"
+        },
+        {
+          "video_id": 2,
+          "title_en": "Social Life",
+          "title_my": "(၃-၂) အနောက်ဘက်တောင်တန်းဒေသရဲ့ လူမှုဘဝအခြေအနေတွေက ဘယ်လိုလဲ",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/7580ddef-46c0-4877-8818-466f7d03112a"
+        }
+      ]
+    },
+    {
+      "lesson_id": 4,
+      "title_en": "Bagan Period",
+      "title_my": "ပုဂံခေတ်",
+      "page": 30,
+      "about": {
+        "description_en": "Explore the history and culture of the Bagan period.",
+        "description_my": "ပုဂံခေတ်၏ သမိုင်းနှင့် ယဉ်ကျေးမှုများကို လေ့လာပါ။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Founding of Bagan",
+          "title_my": "(၄-၁) ပုဂံနိုင်ငံတော်ကို ညောင်ဦးဒေသမှာ ဘာကြောင့်တည်ထောင်ခဲ့တာလဲ",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/032f5ccd-e199-418f-8f76-4f46b7dc08ad"
+        },
+        {
+          "video_id": 2,
+          "title_en": "Longevity of Bagan",
+          "title_my": "(၄-၂) ပုဂံနိုင်ငံတော် ဘာကြောင့် အချိန်ကြာမြင့်စွာ တည်တန့်ခဲ့သလဲ",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/82191c8d-1f5b-4c74-a5ca-54e1d97d3278"
+        },
+        {
+          "video_id": 3,
+          "title_en": "Cultural Development",
+          "title_my": "(၄-၃) ပုဂံခေတ်မှာ ဘယ်လိုယဉ်ကျေးမှုတွေထွန်းကားခဲ့သလဲ",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/3a970b0a-5f44-4040-b528-cdacabb827f6"
+        },
+        {
+          "video_id": 4,
+          "title_en": "Final State of Bagan",
+          "title_my": "(၄-၄) ပုဂံနိုင်ငံတော် နောက်ဆုံးအခြေအနေဘယ်လိုဖြစ်သွားသလဲ",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/43642087-8470-4de5-8c32-92018243e984"
+        }
+      ]
+    },
+    {
+      "lesson_id": 5,
+      "title_en": "Taungoo Period",
+      "title_my": "တောင်ငူခေတ်",
+      "page": 40,
+      "about": {
+        "description_en": "Learn about the rise, consolidation, culture, and final state of the Taungoo dynasty.",
+        "description_my": "တောင်ငူခေတ်၏ တိုးတက်မှု၊ နိုင်ငံတော် အင်အားတည်ဆောက်မှု၊ ယဉ်ကျေးမှုနှင့် နောက်ဆုံးအခြေအနေကို သိပါ။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Rise of Taungoo",
+          "title_my": "(၅-၁) တောင်ငူ အင်အားကြီးမားလာပြီး နိုင်ငံတော်ကို ဘယ်လိုထူထောင်ခဲ့သလဲ",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/e99607b8-38ce-41f8-9936-03c2008172b4"
+        },
+        {
+          "video_id": 2,
+          "title_en": "Consolidation of Taungoo",
+          "title_my": "(၅-၂) ဒုတိယတောင်ငူခေတ် နိုင်ငံတော်ကို အင်အားတောင့်တင်းလာအောင် ဘယ်လိုလုပ်ခဲ့သလဲ",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/338aaf92-589b-4a34-bc85-b9b4007da81a"
+        },
+        {
+          "video_id": 3,
+          "title_en": "Cultural Achievements",
+          "title_my": "(၅-၃) တောင်ငူခေတ်မှာ ဘယ်လိုယဉ်ကျေးမှု‌တွေ ထွန်းကားခဲ့သလဲ",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/ad6dec16-08e7-496f-94f6-16c81387f463"
+        },
+        {
+          "video_id": 4,
+          "title_en": "Final State of Taungoo",
+          "title_my": "(၅-၄) တောင်ငူခေတ်ရဲ့နောက်ဆုံးအခြေအနေ ဘယ်လိုဖြစ်သွားသလဲ",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/73b54fa3-10c8-4766-ab58-61c43313d6df"
+        }
+      ]
+    }
+  ]
+}

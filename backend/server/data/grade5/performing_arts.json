@@ -1,0 +1,95 @@
+{
+  "book": {
+    "title_en": "Grade 4 Performing Arts (Music)",
+    "title_my": "အနုပညာ(ဂီတ) စတုတ္ထတန်း",
+    "grade": 4,
+    "languages": [
+      "my"
+    ]
+  },
+  "intro": [
+    {
+      "page": 1,
+      "title_en": "Book Cover",
+      "title_my": "စာအုပ်မျက်နှာဖုံး",
+      "description_en": "Government of the Republic of the Union of Myanmar, Ministry of Education. Performing Arts (Music) Grade 4.",
+      "description_my": "ပြည်ထောင်စုသမ္မတမြန်မာနိုင်ငံတော်အစိုးရ၊ ပညာရေးဝန်ကြီးဌာန။ အနုပညာ(ဂီတ) စတုတ္ထတန်း။"
+    },
+    {
+      "page": 2,
+      "title_en": "Copyright and Technical Support",
+      "title_my": "မူပိုင်ခွင့်နှင့် နည်းပညာပံ့ပိုးမှု",
+      "description_en": "Copyright of Basic Education Curriculum, Syllabus and Textbook Committee. Technical support provided by JICA.",
+      "description_my": "အခြေခံပညာ သင်ရိုးညွှန်းတမ်း၊ သင်ရိုးမာတိကာနှင့် ကျောင်းသုံးစာအုပ်ကော်မတီ၏ မူပိုင်ဖြစ်သည်။ JICA မှ နည်းပညာပံ့ပိုးကူညီထားသည်။"
+    }
+  ],
+  "table_of_contents": [
+    {
+      "part_id": 1,
+      "part_title_en": "Performing Arts Lessons",
+      "part_title_my": "အနုပညာ သင်ခန်းစာများ",
+      "sections": [
+        {
+          "lesson_id": 1,
+          "title_en": "Let's Go to School",
+          "title_my": "ကျောင်းသွားကြမယ်",
+          "page": 1,
+          "about": {
+            "description_en": "A song motivating students to go to school happily and unitedly.",
+            "description_my": "ကျောင်းနေအရွယ် ကလေးများ ပျော်ရွှင်စွာနှင့် ညီညွတ်စွာ ကျောင်းသွားကြရန် တိုက်တွန်းထားသော တေးသီချင်းဖြစ်သည်။"
+          }
+        },
+        {
+          "lesson_id": 2,
+          "title_en": "Tu Po Tu Po",
+          "title_my": "တူးပို့ တူးပို့",
+          "page": 7,
+          "about": {
+            "description_en": "A traditional song associated with the Thingyan Water Festival.",
+            "description_my": "မြန်မာ့ရိုးရာ မဟာသင်္ကြန်ပွဲတော်နှင့် သက်ဆိုင်သော တူးပို့ တူးပို့ တေးသီချင်းဖြစ်သည်။"
+          }
+        },
+        {
+          "lesson_id": 3,
+          "title_en": "Front Foot Dance",
+          "title_my": "ခြေရှေ့ထိုးအက",
+          "page": 13,
+          "about": {
+            "description_en": "Basic dance lesson focusing on the 'Front Foot' movement.",
+            "description_my": "အခြေခံအက သင်ခန်းစာတစ်ခုဖြစ်သော ခြေရှေ့ထိုးအက နည်းစနစ်ကို သင်ကြားပေးသည်။"
+          }
+        },
+        {
+          "lesson_id": 4,
+          "title_en": "Puppet Up and Down Dance",
+          "title_my": "အရုပ်အတက်အဆင်းအက",
+          "page": 17,
+          "about": {
+            "description_en": "Dance movements imitating the up and down motions of a marionette.",
+            "description_my": "ရုပ်သေးရုပ်ကလေးများကဲ့သို့ အတက်အဆင်း လှုပ်ရှားကပြရသော အကသင်ခန်းစာဖြစ်သည်။"
+          }
+        },
+        {
+          "lesson_id": 5,
+          "title_en": "Sound of the Big Drum",
+          "title_my": "ဗုံကြီးသံ",
+          "page": 21,
+          "about": {
+            "description_en": "A lesson on the traditional 'Bon Gyi' drum rhythms and song.",
+            "description_my": "မြန်မာ့ရိုးရာ ဗုံကြီးသံစဉ်နှင့် ယင်းနှင့်သက်ဆိုင်သော တေးသီချင်းကို လေ့လာသင်ယူရမည်။"
+          }
+        },
+        {
+          "lesson_id": 6,
+          "title_en": "Parental Love",
+          "title_my": "မိဘမေတ္တာ",
+          "page": 25,
+          "about": {
+            "description_en": "A song appreciating the infinite love and gratitude of parents.",
+            "description_my": "မိဘများ၏ ကြီးမားသော မေတ္တာတရားနှင့် ကျေးဇူးတရားကို ဖော်ကျူးထားသော တေးသီချင်းဖြစ်သည်။"
+          }
+        }
+      ]
+    }
+  ]
+}

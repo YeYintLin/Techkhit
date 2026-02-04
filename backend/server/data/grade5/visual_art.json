@@ -1,0 +1,112 @@
+{
+  "book": {
+    "title_en": "Grade 4 Visual Arts",
+    "title_my": "အနုပညာ(ပန်းချီ) စတုတ္ထတန်း",
+    "grade": 4,
+    "languages": [
+      "my"
+    ]
+  },
+  "intro": [
+    {
+      "page": 1,
+      "title_en": "Book Cover",
+      "title_my": "စာအုပ်မျက်နှာဖုံး",
+      "description_en": "Government of the Republic of the Union of Myanmar, Ministry of Education. Visual Arts Grade 4.",
+      "description_my": "ပြည်ထောင်စုသမ္မတမြန်မာနိုင်ငံတော်အစိုးရ၊ ပညာရေးဝန်ကြီးဌာန။ အနုပညာ(ပန်းချီ) စတုတ္ထတန်း။"
+    },
+    {
+      "page": 2,
+      "title_en": "Copyright and Technical Support",
+      "title_my": "မူပိုင်ခွင့်နှင့် နည်းပညာပံ့ပိုးမှု",
+      "description_en": "Copyright of Basic Education Curriculum, Syllabus and Textbook Committee. Technical support provided by JICA.",
+      "description_my": "အခြေခံပညာ သင်ရိုးညွှန်းတမ်း၊ သင်ရိုးမာတိကာနှင့် ကျောင်းသုံးစာအုပ်ကော်မတီ၏ မူပိုင်ဖြစ်သည်။ JICA မှ နည်းပညာပံ့ပိုးကူညီထားသည်။"
+    }
+  ],
+  "table_of_contents": [
+    {
+      "part_id": 1,
+      "part_title_en": "Elements of Art and Techniques",
+      "part_title_my": "အခြေခံပန်းချီပညာနှင့် နည်းစနစ်များ",
+      "sections": [
+        {
+          "lesson_id": "1-1",
+          "title_en": "Color Harmonization",
+          "title_my": "အရောင်များ လိုက်ဖက်အောင်စပ်ခြင်း",
+          "page": 1,
+          "about": {
+            "description_en": "Learning how to mix and match colors effectively to create beautiful artworks.",
+            "description_my": "ပန်းချီကားများ ဖန်တီးရာတွင် အရောင်များကို လှပစွာ လိုက်ဖက်ညီအောင် စပ်ဟပ်အသုံးပြုနည်းကို သင်ကြားပေးသည်။"
+          }
+        },
+        {
+          "lesson_id": "2-1",
+          "title_en": "Drawing with Pencil and Brush",
+          "title_my": "ခဲတံနှင့် စုတ်တံအသုံးပြု၍ ပုံဆွဲခြင်း",
+          "page": 4,
+          "about": {
+            "description_en": "Basic techniques for using pencils and brushes to draw shapes and forms.",
+            "description_my": "ခဲတံနှင့် စုတ်တံကို အသုံးပြု၍ ပုံသဏ္ဌာန်အမျိုးမျိုး ဆွဲသားနည်း အခြေခံများကို ဖော်ပြထားသည်။"
+          }
+        },
+        {
+          "lesson_id": "2-2",
+          "title_en": "Symmetry in Art",
+          "title_my": "ဟန်ချက်ညီ ပုံဆွဲခြင်း",
+          "page": 7,
+          "about": {
+            "description_en": "Understanding balance and symmetry by drawing objects that are equal on both sides.",
+            "description_my": "အရာဝတ္ထုများကို ဘယ်ညာညီညာစွာ ဆွဲသားခြင်းဖြင့် အနုပညာ၏ ဟန်ချက်ညီမှုကို လေ့လာရမည်။"
+          }
+        },
+        {
+          "lesson_id": "2-3",
+          "title_en": "Light and Shadow",
+          "title_my": "အလင်းအမှောင်ပြခြင်း",
+          "page": 10,
+          "about": {
+            "description_en": "Introduction to adding depth to drawings through the use of light and shadow.",
+            "description_my": "ပုံဆွဲရာတွင် အလင်းနှင့် အမှောင်ကို အသုံးပြု၍ အနက်ရှိုင်းနှင့် ပုံသဏ္ဌာန် ပေါ်လွင်စေရန် ပြုလုပ်နည်းကို သင်ကြားပေးသည်။"
+          }
+        }
+      ]
+    },
+    {
+      "part_id": 2,
+      "part_title_en": "Crafts and Traditional Arts",
+      "part_title_my": "လက်မှုပညာနှင့် ရိုးရာအနုပညာ",
+      "sections": [
+        {
+          "lesson_id": "3-1",
+          "title_en": "Paper Cutting and Folding",
+          "title_my": "စက္ကူညှပ်ခြင်းနှင့် ခေါက်ခြင်း",
+          "page": 13,
+          "about": {
+            "description_en": "Creative craft making through cutting and folding paper into various designs.",
+            "description_my": "စက္ကူများကို ညှပ်ခြင်း၊ ခေါက်ခြင်းဖြင့် ဖန်တီးမှုရှိသော လက်မှုပစ္စည်းများ ပြုလုပ်နည်းဖြစ်သည်။"
+          }
+        },
+        {
+          "lesson_id": "3-2",
+          "title_en": "Clay Modeling",
+          "title_my": "ရွှံ့စေးဖြင့် ရုပ်လုံးဖော်ခြင်း",
+          "page": 16,
+          "about": {
+            "description_en": "Sculpting simple objects and figures using clay to develop spatial awareness.",
+            "description_my": "ရွှံ့စေးကို အသုံးပြု၍ အရုပ်ကလေးများနှင့် ပစ္စည်းလေးများ ပုံဖော်ပြုလုပ်နည်းကို လေ့ကျင့်ပေးသည်။"
+          }
+        },
+        {
+          "lesson_id": "4-1",
+          "title_en": "Traditional Myanmar Patterns",
+          "title_my": "မြန်မာ့ရိုးရာ ကနုတ်ပန်းများ",
+          "page": 20,
+          "about": {
+            "description_en": "Learning to draw basic Myanmar traditional decorative motifs.",
+            "description_my": "မြန်မာ့ရိုးရာ အလှဆင် ကနုတ်ပန်း အခြေခံပုံစံများကို ဆွဲသားနည်း သင်ကြားပေးသည်။"
+          }
+        }
+      ]
+    }
+  ]
+}

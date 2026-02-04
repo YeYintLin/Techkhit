@@ -1,0 +1,17 @@
+{
+  "name": "techkhit2",
+  "private": true,
+  "workspaces": [
+    "backend/server",
+    "frontend/client"
+  ],
+  "scripts": {
+    "start-all": "concurrently -k \"npm run translator --workspace backend\" \"npm run backend --workspace backend\" \"npm start --workspace frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "dependencies": {
+    "mongoose": "^9.1.5"
+  }
+}

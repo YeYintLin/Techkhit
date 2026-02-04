@@ -1,0 +1,37 @@
+version: "3.8"
+
+services:
+  backend:
+    build: ./backend/server
+    container_name: ai-backend
+    ports:
+      - "5000:5000"
+    networks:
+      - ai-network
+
+  frontend:
+    build: ./frontend/client
+    container_name: ai-frontend
+    depends_on:
+      - backend
+    ports:
+    - "5050:80"  # map host 5050 to container 80
+    networks:
+      - ai-network
+
+  proxy:
+    image: nginx:alpine
+    container_name: ai-proxy
+    depends_on:
+      - frontend
+      - backend
+    ports:
+      - "8080:80"
+    volumes:
+      - "./nginx/default.conf:/etc/nginx/conf.d/default.conf"
+    networks:
+      - ai-network
+
+networks:
+  ai-network:
+    driver: bridge

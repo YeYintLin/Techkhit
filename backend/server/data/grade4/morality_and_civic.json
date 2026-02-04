@@ -1,0 +1,315 @@
+{
+  "book": {
+    "title_en": "Grade 4 Morality and Civics",
+    "title_my": "စာရိတ္တနှင့်ပြည်သူ့နီတိ စတုတ္ထတန်း",
+    "grade": 4,
+    "languages": ["my"]
+  },
+  "intro": [
+    {
+      "page": 1,
+      "title_en": "Book Cover",
+      "title_my": "စာအုပ်မျက်နှာဖုံး",
+      "description_en": "Government of the Republic of the Union of Myanmar, Ministry of Education. Morality and Civics Grade 4.",
+      "description_my": "ပြည်ထောင်စုသမ္မတမြန်မာနိုင်ငံတော်အစိုးရ၊ ပညာရေးဝန်ကြီးဌာန။ စာရိတ္တနှင့်ပြည်သူ့နီတိ စတုတ္ထတန်း။"
+    },
+    {
+      "page": 3,
+      "title_en": "Copyright and Technical Support",
+      "title_my": "မူပိုင်ခွင့်နှင့် နည်းပညာပံ့ပိုးမှု",
+      "description_en": "Copyright of Basic Education Curriculum, Syllabus and Textbook Committee. Technical support provided by JICA.",
+      "description_my": "အခြေခံပညာ သင်ရိုးညွှန်းတမ်း၊ သင်ရိုးမာတိကာနှင့် ကျောင်းသုံးစာအုပ်ကော်မတီ၏ မူပိုင်ဖြစ်သည်။ JICA မှ နည်းပညာပံ့ပိုးကူညီထားသည်။"
+    }
+  ],
+  "table_of_contents": [
+    {
+      "lesson_id": 1,
+      "title_en": "Fair Little Ones",
+      "title_my": "မျှတသူလေးများ",
+      "page": 1,
+      "about": {
+        "description_en": "Focuses on living and interacting with others fairly and the importance of equality in social situations.",
+        "description_my": "တစ်ဦးနဲ့တစ်ဦး မျှမျှတတနေထိုင်တတ်ရန်နှင့် အခြားသူများနှင့် ဆက်ဆံရာတွင် မျှတမှု၏ အရေးကြီးပုံကို သင်ကြားပေးသည်။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Fair Little Ones",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/f74563a0-8281-4b2b-9fb4-bbf5e447ce64"
+        }
+      ]
+    },
+    {
+      "lesson_id": 2,
+      "title_en": "Use It Correctly",
+      "title_my": "နည်းလမ်းမှန်စွာ အသုံးပြုပါ",
+      "page": 8,
+      "about": {
+        "description_en": "Teaches the appropriate and safe use of information technology and electronic devices.",
+        "description_my": "သတင်းအချက်အလက် နည်းပညာဆိုင်ရာပစ္စည်းများကို သင့်လျော်မှန်ကန်စွာ အသုံးပြုတတ်စေရန် ရည်ရွယ်သည်။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Use It Correctly",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/7f2fc50f-d257-4876-87d5-20bf7909d7ce"
+        }
+      ]
+    },
+    {
+      "lesson_id": 3,
+      "title_en": "Unrelenting Perseverance",
+      "title_my": "မလျှော့သောဇွဲ",
+      "page": 9,
+      "about": {
+        "description_en": "Encourages students to have persistence and determination in their tasks.",
+        "description_my": "လုပ်ဆောင်သမျှ အလုပ်ကိစ္စများတွင် မလျှော့သော ဇွဲလုံ့လရှိရန် အားပေးထားသည်။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Unrelenting Perseverance",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/adb79e1f-9959-4ce4-8b62-368459f6c183"
+        }
+      ]
+    },
+    {
+      "lesson_id": 4,
+      "title_en": "Working Together for the Public",
+      "title_my": "ဝိုင်းဝန်းဆောင်ရွက် အများအတွက်",
+      "page": 14,
+      "about": {
+        "description_en": "Highlights the value of community service and collective action for the common good.",
+        "description_my": "အများအကျိုးအတွက် ဝိုင်းဝန်းကူညီ ဆောင်ရွက်တတ်သည့် အလေ့အကျင့်ကောင်းများကို ဖော်ပြထားသည်။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Working Together for the Public",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/9700b0f1-63c8-44c1-8e37-c6eeab220c16"
+        }
+      ]
+    },
+    {
+      "lesson_id": 5,
+      "title_en": "Living with Mutual Help",
+      "title_my": "ရိုင်းပင်းကူညီ နေထိုင်မည်",
+      "page": 19,
+      "about": {
+        "description_en": "Emphasizes the importance of helping each other and living harmoniously in society.",
+        "description_my": "ပတ်ဝန်းကျင်တွင် အချင်းချင်း ရိုင်းပင်းကူညီပြီး ရင်းနှီးစွာ နေထိုင်တတ်စေရန် သင်ကြားပေးသည်။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Living with Mutual Help",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/64007d6f-9c40-442d-a346-4d4208121d7c"
+        }
+      ]
+    },
+    {
+      "lesson_id": 6,
+      "title_en": "Reputation of Honesty",
+      "title_my": "ရိုးသားမှု၏ ဂုဏ်သတင်း",
+      "page": 26,
+      "about": {
+        "description_en": "Focuses on the value and integrity gained through being honest.",
+        "description_my": "ရိုးသားစွာ နေထိုင်ခြင်းဖြင့် ရရှိလာမည့် ဂုဏ်သတင်းနှင့် တန်ဖိုးများကို ညွှန်းဆိုထားသည်။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Reputation of Honesty",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/9123c62a-4073-4fd3-a449-cc96000253b4"
+        }
+      ]
+    },
+    {
+      "lesson_id": 7,
+      "title_en": "Politeness in Playing",
+      "title_my": "ကစားစဉ် ယဉ်ကျေးခြင်း",
+      "page": 27,
+      "about": {
+        "description_en": "Teaches sportsmanship and polite behavior while playing with peers.",
+        "description_my": "သူငယ်ချင်းများနှင့် ကစားသည့်အခါတွင် လိုက်နာရမည့် ယဉ်ကျေးပျူငှာမှုများကို ဖော်ပြထားသည်။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Politeness in Playing",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/95d6efe6-f080-4fe3-819d-c8cadc53af06"
+        }
+      ]
+    },
+    {
+      "lesson_id": 8,
+      "title_en": "Follow All Rules",
+      "title_my": "စည်းကမ်းဟူသမျှ လိုက်နာကြ",
+      "page": 31,
+      "about": {
+        "description_en": "Stresses the importance of adhering to rules and regulations in various settings.",
+        "description_my": "သတ်မှတ်ထားသော စည်းကမ်းဥပဒေများကို လေးစားလိုက်နာတတ်စေရန် သွန်သင်ထားသည်။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Follow All Rules",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/228beff9-b8f1-43e1-b1c4-cf75c86a09dd"
+        }
+      ]
+    },
+    {
+      "lesson_id": 9,
+      "title_en": "Fulfill Your Responsibility",
+      "title_my": "ကျရာနေရာ တာဝန်ကျေပါ",
+      "page": 36,
+      "about": {
+        "description_en": "Encourages students to be responsible in whatever role or position they are in.",
+        "description_my": "မိမိကျရာ အခန်းကဏ္ဍတွင် တာဝန်သိစွာ ဆောင်ရွက်တတ်ရန် တိုက်တွန်းထားသည်။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Fulfill Your Responsibility",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/5fce5341-2dd5-4d1a-b708-1b1187b4d727"
+        }
+      ]
+    },
+    {
+      "lesson_id": 10,
+      "title_en": "Our Rights",
+      "title_my": "ကျွန်ုပ်တို့၏အခွင့်အရေး",
+      "page": 40,
+      "about": {
+        "description_en": "Introduces basic rights that children and citizens are entitled to.",
+        "description_my": "ကလေးများ၏ အခြေခံအခွင့်အရေးများနှင့် သိသင့်သိထိုက်သည့် အခွင့်အရေးများကို ဖော်ပြထားသည်။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Our Rights",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/a74169bf-daba-4bd0-8341-9a765623bdff"
+        }
+      ]
+    },
+    {
+      "lesson_id": 11,
+      "title_en": "Self-Initiated Actions",
+      "title_my": "ကိုယ်တိုင်ကြံဆ လုပ်ဆောင်မှ",
+      "page": 44,
+      "about": {
+        "description_en": "Promotes taking initiative and acting responsibly without waiting for instructions.",
+        "description_my": "ညွှန်ကြားချက်မဆိုအလိုမရှိဘဲ ကိုယ်တိုင်ကြံဆလုပ်ဆောင်နိုင်စွမ်းကို ဖော်ပြထားသည်။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Self-Initiated Actions",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/2e34c0f8-bdd4-422f-b07f-b1a39bffa4cc"
+        }
+      ]
+    },
+    {
+      "lesson_id": 12,
+      "title_en": "Responsible Individuals",
+      "title_my": "တာဝန်သိ၍ တာဝန်ယူတတ်သူ",
+      "page": 50,
+      "about": {
+        "description_en": "Teaches students to understand their responsibilities and act accordingly.",
+        "description_my": "မိမိတာဝန်ကိုနားလည်ပြီး တာဝန်ယူဆောင်ရွက်နိုင်ရန် သင်ကြားပေးသည်။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Responsible Individuals",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/a3caec7c-f655-4bbd-a3ba-6bd03113fe28"
+        }
+      ]
+    },
+    {
+      "lesson_id": 13,
+      "title_en": "Unity and Harmony",
+      "title_my": "စည်းလုံးချစ်ကြည် နေကြမည်",
+      "page": 54,
+      "about": {
+        "description_en": "Emphasizes the importance of unity and harmony among people.",
+        "description_my": "လူများအကြား စည်းလုံးချစ်ကြည်ပြီး သဘောတူညီမှုရှိစေရန် အရေးကြီးပုံကို သင်ကြားပေးသည်။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Unity and Harmony",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/3fea4fa5-41b4-4485-a6ce-b36bf670d8b2"
+        }
+      ]
+    },
+    {
+      "lesson_id": 14,
+      "title_en": "Kindness Brings Joy",
+      "title_my": "သင့်မြတ်ခြင်းသည်ပျော်စရာ",
+      "page": 58,
+      "about": {
+        "description_en": "Encourages students to act kindly and understand the joy of helping others.",
+        "description_my": "အခြားသူများကိုကူညီခြင်းမှ ပျော်ရွှင်မှုကိုခံစားသင်ယူနိုင်ရန် သင်ကြားပေးသည်။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Kindness Brings Joy",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/e2309f14-d33b-48a7-9b7b-b0e05fd332e9"
+        }
+      ]
+    },
+    {
+      "lesson_id": 15,
+      "title_en": "Preserve the Earth",
+      "title_my": "ထိန်းသိမ်းကြပါ မြေကမ္ဘာ",
+      "page": 61,
+      "about": {
+        "description_en": "Discusses environmental conservation and protecting the planet.",
+        "description_my": "ကမ္ဘာမြေနှင့် သဘာဝပတ်ဝန်းကျင်ကို ထိန်းသိမ်းစောင့်ရှောက်ရန် အရေးကြီးပုံကို ဖော်ပြသည်။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Preserve the Earth",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/6f897f49-1859-4305-9fb6-abd55697ef39"
+        }
+      ]
+    },
+    {
+      "lesson_id": 16,
+      "title_en": "Protecting the Natural Environment",
+      "title_my": "သဘာဝပတ်ဝန်းကျင် ထိန်းစေချင်",
+      "page": 65,
+      "about": {
+        "description_en": "Focuses on taking care of nature and the environment.",
+        "description_my": "သဘာဝနှင့် ပတ်ဝန်းကျင်ကို ထိန်းသိမ်းစောင့်ရှောက်ရန် အရေးကြီးမှုကို သင်ကြားပေးသည်။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Protecting the Natural Environment",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/45963052-1e77-4e0a-8e9c-815a8a2744ea"
+        }
+      ]
+    },
+    {
+      "lesson_id": 17,
+      "title_en": "I Will Speak the Truth",
+      "title_my": "အမှန်တရားကိုပြောပါမယ်",
+      "page": 69,
+      "about": {
+        "description_en": "Encourages truthfulness and the courage to speak the truth.",
+        "description_my": "မှန်ကန်စွာ ပြောဆိုခြင်းနှင့် အမှန်တရားဘက်တွင် ရပ်တည်တတ်စေရန် သင်ကြားပေးသည်။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "I Will Speak the Truth",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/3a6ef0d4-2aa0-4fbe-87bf-606f56d5daa8"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,660 @@
+{
+  "book": {
+    "title_en": "Myanmar Reader (Grade 4)",
+    "title_my": "စတုတ္ထတန်း မြန်မာဖတ်စာ",
+    "grade": 4,
+    "languages": ["my"]
+  },
+  "intro": [
+    {
+      "page": 1,
+      "title_en": "Book Cover",
+      "title_my": "စာအုပ်မျက်နှာဖုံး",
+      "description_en": "This is the front cover of the Grade 4 Myanmar Reader textbook.",
+      "description_my": "မြန်မာစာပေနဲ့ ယဉ်ကျေးမှုကို လေ့လာနိုင်မယ့် စတုတ္ထတန်း မြန်မာဖတ်စာအုပ် မျက်နှာဖုံးဖြစ်သည်။"
+    }
+  ],
+  "table_of_contents": [
+    {
+      "lesson_id": 1,
+      "title_en": "The Star and the Moon",
+      "title_my": "ကြယ်နှင့်လ",
+      "page": 1,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "The Star and the Moon",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/ea44517a-4a99-4a48-970a-505ce88edb89",
+          "duration": "00:03:28"
+        }
+      ],
+      "about": {
+        "description_en": "A beautiful poem about the night sky.",
+        "description_my": "ညကောင်းကင်ယံအလှကို ဖွဲ့ဆိုထားတဲ့ ကဗျာလေးကို ရွတ်ဆိုခံစားကြမယ်။"
+      }
+    },
+    {
+      "lesson_id": 2,
+      "title_en": "Drawing Pictures with Words",
+      "title_my": "စကားလုံးတွေသုံးကာ ရုပ်ပုံဆွဲပါ",
+      "page": 2,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Drawing Pictures with Words",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/ad50892f-4ce8-4c20-9b42-ad5a1ee85485",
+          "duration": "00:04:06"
+        }
+      ],
+      "about": {
+        "description_en": "Use your imagination to draw pictures based on words.",
+        "description_my": "စကားလုံးလေးတွေကို အသုံးပြုပြီး စိတ်ကူးရှိသလို ရုပ်ပုံလေးတွေ ဆွဲကြည့်ကြမယ်။"
+      }
+    },
+    {
+      "lesson_id": 3,
+      "title_en": "Goodwill (Story)",
+      "title_my": "စေတနာ",
+      "page": 4,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Goodwill (Story)",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/b040a96a-b6a4-4c77-8670-db24c6bf065d",
+          "duration": "00:04:25"
+        }
+      ],
+      "about": {
+        "description_en": "A story teaching the value of kindness and good intentions.",
+        "description_my": "စေတနာထားခြင်းရဲ့ တန်ဖိုးကို ဖော်ပြထားတဲ့ ပုံပြင်လေးတစ်ပုဒ် ဖြစ်ပါတယ်။"
+      }
+    },
+    {
+      "lesson_id": 4,
+      "title_en": "The Word Tree",
+      "title_my": "စကားလုံးသစ်ပင်",
+      "page": 8,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "The Word Tree",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/916f660e-a7e2-442c-b523-d5bc79afd7fb",
+          "duration": "00:03:42"
+        }
+      ],
+      "about": {
+        "description_en": "Expand your vocabulary with the word tree activity.",
+        "description_my": "ဝေါဟာရ စကားလုံးသစ်တွေကို စကားလုံးသစ်ပင်လေးကနေတဆင့် လေ့လာကြမယ်။"
+      }
+    },
+    {
+      "lesson_id": 5,
+      "title_en": "Salt",
+      "title_my": "ဆား",
+      "page": 11,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Salt",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/e2157196-ec38-4154-84ef-4dc9b2e1cdc1",
+          "duration": "00:06:15"
+        }
+      ],
+      "about": {
+        "description_en": "Learn about salt, how it's made, and its uses.",
+        "description_my": "နေ့စဉ်စားသုံးနေတဲ့ ဆားကို ဘယ်လိုရရှိသလဲ၊ ဘာအတွက်သုံးသလဲဆိုတာ ဗဟုသုတရယူမယ်။"
+      }
+    },
+    {
+      "lesson_id": 6,
+      "title_en": "Review Lesson 1",
+      "title_my": "ပြန်လှန်သင်ကြားခြင်း (၁)",
+      "page": 15,
+      "videos": [],
+      "about": {
+        "description_en": "Review previous lessons.",
+        "description_my": "အတိတ်သင်ခန်းစာတွေကို ပြန်လည်လေ့ကျင့်မယ်။"
+      }
+    },
+    {
+      "lesson_id": 7,
+      "title_en": "The Bee and the Carpenter Bee",
+      "title_my": "ပျားနှင့်ပိတုန်း",
+      "page": 17,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "The Bee and the Carpenter Bee",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/7c8d413c-181e-4ba2-b66e-578914163894",
+          "duration": "00:03:51"
+        }
+      ],
+      "about": {
+        "description_en": "A poem about bees and carpenter bees collecting nectar.",
+        "description_my": "ပန်းဝတ်ရည်စုပ်ယူကြတဲ့ ပျားနဲ့ ပိတုန်းလေးတွေအကြောင်း ကဗျာလေးပါ။"
+      }
+    },
+    {
+      "lesson_id": 8,
+      "title_en": "Seeking Knowledge in the Library",
+      "title_my": "ဗဟုသုတရှာကြမယ် စာကြည့်တိုက်မှာကွယ်",
+      "page": 18,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Seeking Knowledge in the Library",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/b5e6646e-3f7b-414f-9b47-594e8a6f7c7b",
+          "duration": "00:05:05"
+        }
+      ],
+      "about": {
+        "description_en": "Learn the importance of reading and libraries.",
+        "description_my": "စာကြည့်တိုက်မှာ စာဖတ်ပြီး ဗဟုသုတရှာဖွေခြင်းရဲ့ အကျိုးကျေးဇူးကို လေ့လာမယ်။"
+      }
+    },
+    {
+      "lesson_id": 9,
+      "title_en": "Two Little Pots",
+      "title_my": "အိုးကလေးနှစ်လုံး",
+      "page": 23,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Two Little Pots",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/ae379717-cd88-474b-998d-897c79df99cd",
+          "duration": "00:03:38"
+        }
+      ],
+      "about": {
+        "description_en": "A story about two pots with a moral lesson.",
+        "description_my": "အိုးကလေးနှစ်လုံးရဲ့ စိတ်ဝင်စားစရာ ပုံပြင်လေးကို ဖတ်ရှုပြီး သင်ခန်းစာယူကြမယ်။"
+      }
+    },
+    {
+      "lesson_id": 10,
+      "title_en": "Thinking and Writing from Photos",
+      "title_my": "ဓာတ်ပုံကြည့်ပြီး တွေးကြ ရေးကြမယ်",
+      "page": 27,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Thinking and Writing from Photos",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/9c706ea5-43de-4885-90cc-2549b3577c0b",
+          "duration": "00:03:51"
+        }
+      ],
+      "about": {
+        "description_en": "Creative writing practice using photographs.",
+        "description_my": "ဓာတ်ပုံလေးတွေကို ကြည့်ပြီး ကိုယ်ပိုင်အတွေးနဲ့ စာရေးသား လေ့ကျင့်ကြမယ်။"
+      }
+    },
+    {
+      "lesson_id": 11,
+      "title_en": "Great Actor U Po Sein",
+      "title_my": "ဇာတ်မင်းသားကြီး ဦးဘိုးစိန်",
+      "page": 30,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Great Actor U Po Sein",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/3b2fb1fc-b6d7-4f27-8597-768243d53420",
+          "duration": "00:05:23"
+        }
+      ],
+      "about": {
+        "description_en": "The life of the great Myanmar actor U Po Sein.",
+        "description_my": "မြန်မာ့ထင်ရှားတဲ့ဇာတ်မင်းသားကြီး ဦးဘိုးစိန်အကြောင်း လေ့လာမယ်။"
+      }
+    },
+    {
+      "lesson_id": 12,
+      "title_en": "Aung San the Martyr",
+      "title_my": "အောင်ဆန်းဇာနည်",
+      "page": 33,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Aung San the Martyr",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/7080eed1-69b4-47db-b8f4-ba8d5eb00654",
+          "duration": "00:04:38"
+        }
+      ],
+      "about": {
+        "description_en": "A poem honoring General Aung San.",
+        "description_my": "ဗိုလ်ချုပ်အောင်ဆန်းကို ဂုဏ်ပြုတဲ့ ကဗျာလေး။"
+      }
+    },
+    {
+      "lesson_id": 13,
+      "title_en": "Vocabulary Games",
+      "title_my": "ဝေါဟာရကြွယ်ကြွယ်ကစားမယ်",
+      "page": 37,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Vocabulary Games",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/aaeba1f7-dc5e-48d7-9cb1-24787cffd6ef",
+          "duration": "00:04:13"
+        }
+      ],
+      "about": {
+        "description_en": "Fun word games to improve vocabulary.",
+        "description_my": "စကားလုံးကစားနည်းတွေနဲ့ ဝေါဟာရ တိုးတက်စေမယ်။"
+      }
+    },
+    {
+      "lesson_id": 14,
+      "title_en": "Bagan",
+      "title_my": "ပုဂံ",
+      "page": 40,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Bagan",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/76167ca2-aa05-476d-935a-dd016997e324",
+          "duration": "00:06:35"
+        }
+      ],
+      "about": {
+        "description_en": "Learn about the ancient city of Bagan.",
+        "description_my": "ရှေးဟောင်းမြို့ကြီး ပုဂံအကြောင်း လေ့လာမယ်။"
+      }
+    },
+    {
+      "lesson_id": 15,
+      "title_en": "Expanding Sentences",
+      "title_my": "ဝါကျတွေချဲ့ထွင်ကြည့်ကြမယ်",
+      "page": 42,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Expanding Sentences",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/efd96f24-76d4-4bb5-ada3-c727fda450e1",
+          "duration": "00:02:45"
+        }
+      ],
+      "about": {
+        "description_en": "Practice expanding short sentences to make them more detailed.",
+        "description_my": "ဝါကျတိုလေးတွေကို အဓိပ္ပာယ်ပြည့်စုံတဲ့ ဝါကျရှည်တွေဖြစ်အောင် ချဲ့ထွင်ရေးသားမယ်။"
+      }
+    },
+    {
+      "lesson_id": 16,
+      "title_en": "Ordering and Speaking",
+      "title_my": "အမှတ်စဉ်တပ်ကာ ပြောကြမယ်",
+      "page": 44,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Ordering and Speaking",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/dbcf7052-6baa-4089-9532-8b9cf9505c77",
+          "duration": "00:03:07"
+        }
+      ],
+      "about": {
+        "description_en": "Organize thoughts and speak in order.",
+        "description_my": "အကြောင်းအရာတွေကို စဉ်လိုက် ပြောကြမယ်။"
+      }
+    },
+    {
+      "lesson_id": 17,
+      "title_en": "Computer",
+      "title_my": "ကွန်ပျူတာ",
+      "page": 46,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Computer",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/7ca8d6a4-7890-422c-ab33-4311e5f87b82",
+          "duration": "00:04:11"
+        }
+      ],
+      "about": {
+        "description_en": "An introduction to computers and technology.",
+        "description_my": "ခေတ်မီနည်းပညာပစ္စည်းဖြစ်တဲ့ ကွန်ပျူတာအကြောင်း အခြေခံဗဟုသုတ လေ့လာမယ်။"
+      }
+    },
+    {
+      "lesson_id": 18,
+      "title_en": "Conjunctions",
+      "title_my": "စကားဆက်",
+      "page": 47,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Conjunctions",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/48f618d5-c259-45a6-8fe0-96089046fa07",
+          "duration": "00:01:37"
+        }
+      ],
+      "about": {
+        "description_en": "Learn how to use connecting words in sentences.",
+        "description_my": "ဝါကျတွေကို ဆက်စပ်ပေးတဲ့ စကားဆက်စကားလုံးတွေ အသုံးပြုပုံကို လေ့လာမယ်။"
+      }
+    },
+    {
+      "lesson_id": 19,
+      "title_en": "Which is the Raw Egg?",
+      "title_my": "မည်သည်က ကြက်ဥစိမ်းဖြစ်သနည်း",
+      "page": 49,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Which is the Raw Egg?",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/ea78ddd5-0075-46ed-9425-5619a49bfa91",
+          "duration": "00:03:55"
+        }
+      ],
+      "about": {
+        "description_en": "A reading passage about identifying raw eggs.",
+        "description_my": "ကြက်ဥအစိမ်းနဲ့ အကျက်ကို ဘယ်လို ခွဲခြားမလဲဆိုတာ ဖတ်ပြီး သင်ကြမယ်။"
+      }
+    },
+    {
+      "lesson_id": 20,
+      "title_en": "Writing Completely",
+      "title_my": "အကြောင်းအရာကို ပြည့်ပြည့်စုံစုံရေးခြင်း",
+      "page": 54,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Writing Completely",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/e3de34c6-1a1e-4b68-b7e1-3f1ac94eb023",
+          "duration": "00:03:19"
+        }
+      ],
+      "about": {
+        "description_en": "Practice writing detailed paragraphs.",
+        "description_my": "အကြောင်းအရာတစ်ခုကို ပြည့်ပြည့်စုံစုံနဲ့ သေသပ်စွာ ရေးသားတတ်အောင် လေ့ကျင့်မယ်။"
+      }
+    },
+    {
+      "lesson_id": 21,
+      "title_en": "Saya Kar Pyan",
+      "title_my": "ဆရာကာပြန် အာခေါင်လှံစူး",
+      "page": 56,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Saya Kar Pyan",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/4c2512e1-c385-4ed7-a47e-f7ac218e4ba8",
+          "duration": "00:05:28"
+        }
+      ],
+      "about": {
+        "description_en": "A traditional idiom/story lesson.",
+        "description_my": "မှတ်သားဖွယ်ရာ ဆရာကာပြန် အာခေါင်လှံစူး ဆိုတဲ့ ပုံပြင်သို့မဟုတ် စကားပုံအကြောင်း လေ့လာမယ်။"
+      }
+    },
+    {
+      "lesson_id": 22,
+      "title_en": "Holiday Traveler",
+      "title_my": "ကျောင်းပိတ်ရက်ခရီးသည်",
+      "page": 59,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Holiday Traveler",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/0033ba91-e247-435e-8c61-0f6ec61ba1da",
+          "duration": "00:05:04"
+        }
+      ],
+      "about": {
+        "description_en": "A reading passage about traveling during holidays.",
+        "description_my": "ကျောင်းပိတ်ရက်မှာ ခရီးသွားခဲ့တဲ့ အတွေ့အကြ expériences။"
+      }
+    },
+    {
+      "lesson_id": 23,
+      "title_en": "Thadingyut Festival",
+      "title_my": "သီတင်းကျွတ်မီးထွန်းပွဲတော်",
+      "page": 60,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Thadingyut Festival",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/0810d85e-aa8e-4252-9c2d-def133ba1b32",
+          "duration": "00:04:54"
+        }
+      ],
+      "about": {
+        "description_en": "Learn about the famous Myanmar festival.",
+        "description_my": "မြန်မာတို့ရဲ့ ချစ်စရာ့ဓလေ့ သီတင်းကျွတ်မီးထွန်းပွဲတော်အကြောင်း လေ့လာမယ်။"
+      }
+    },
+    {
+      "lesson_id": 24,
+      "title_en": "Word Rearrangement",
+      "title_my": "စကားလုံးအတွဲလွှဲ",
+      "page": 64,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Word Rearrangement",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/6ee6a16d-5a0e-4707-9f54-115c9e7a9e31",
+          "duration": "00:02:57"
+        }
+      ],
+      "about": {
+        "description_en": "Practice rearranging words to form correct sentences.", 
+        "description_my": "စကားလုံးတွေကို လိုက်နာအောင် စီပြီး ဝါကျသန့်စင်ရေးသားကြမယ်။"
+      }
+    },
+    {
+      "lesson_id": 25,
+      "title_en": "The Peacock Dance",
+      "title_my": "ကြက်ခြေချောင်အမိုးမောင်း",
+      "page": 66,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "The Peacock Dance",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/7c3f5f0d-82d4-46a7-8e43-2e6ed957a891",
+          "duration": "00:03:33"
+        }
+      ],
+      "about": {
+        "description_en": "A poem about the peacock dance in Myanmar culture.",
+        "description_my": "မြန်မာ့ယဉ်ကျေးမှုအရ ကြက်ခြေချောင်အမိုးမောင်းအကြောင်း ကဗျာ သို့မဟုတ် ဖတ်စာပါ။"
+      }
+    },
+    {
+      "lesson_id": 26,
+      "title_en": "Weather Report",
+      "title_my": "မိုးလေဝသအစီရင်ခံစာ",
+      "page": 70,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Weather Report",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/031aa391-47ce-47e1-8f28-33d3e61b33c6",
+          "duration": "00:04:05"
+        }
+      ],
+      "about": {
+        "description_en": "Learn to read and understand simple weather reports.",
+        "description_my": "မိုးလေဝသအစီရင်ခံစာများကို နားလည်နည်း လေ့ကျင့်မယ်။"
+      }
+    },
+    {
+      "lesson_id": 27,
+      "title_en": "Healthy Food",
+      "title_my": "ကျန်းမာရေးအတွက် အစားအသောက်",
+      "page": 72,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Healthy Food",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/b9f1d227-48cf-4c79-bd59-58fbd7d3f9e4",
+          "duration": "00:04:50"
+        }
+      ],
+      "about": {
+        "description_en": "Learn about nutritious and healthy foods.",
+        "description_my": "ကျန်းမာရေးအတွက် အစားအသောက်၊ အာဟာရပြည့်ဝမှုအကြောင်း လေ့လာမယ်။"
+      }
+    },
+    {
+      "lesson_id": 28,
+      "title_en": "Planting a Tree",
+      "title_my": "သစ်ပင်စိုက်ခြင်း",
+      "page": 76,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Planting a Tree",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/c7a431f8-53df-4f53-9836-2e64a04f49e2",
+          "duration": "00:03:47"
+        }
+      ],
+      "about": {
+        "description_en": "Learn the steps and importance of planting trees.",
+        "description_my": "သစ်ပင်စိုက်ခြင်းနဲ့ သစ်ပင်စိုက်ခြင်း၏ အကျိုးကျေးဇူးကို လေ့လာမယ်။"
+      }
+    },
+    {
+      "lesson_id": 29,
+      "title_en": "The Clever Rabbit",
+      "title_my": "အသိဉာဏ်ရှိသော မြင်းတောင်",
+      "page": 80,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "The Clever Rabbit",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/f03e72ad-5d48-4ed3-8f7f-4d84f4699280",
+          "duration": "00:05:11"
+        }
+      ],
+      "about": {
+        "description_en": "A story about a clever rabbit who outsmarts others.",
+        "description_my": "အခြားတစ်ဦးတို့ကို လွှတ်ပစ်နိုင်သည့် အသိဉာဏ်ရှိ မြင်းတောင် အကြောင်း ပုံပြင်။"
+      }
+    },
+    {
+      "lesson_id": 30,
+      "title_en": "Environmental Protection",
+      "title_my": "ပတ်ဝန်းကျင်ကာကွယ်ခြင်း",
+      "page": 84,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Environmental Protection",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/25c7d6ab-5b8a-49ad-a3f0-35314e8f1f29",
+          "duration": "00:04:58"
+        }
+      ],
+      "about": {
+        "description_en": "Learn ways to protect the environment.",
+        "description_my": "ပတ်ဝန်းကျင်ကို ကာကွယ်စောင့်ရှောက်နည်း လေ့လာမယ်။"
+      }
+    },
+    {
+      "lesson_id": 31,
+      "title_en": "Famous Myanmar People",
+      "title_my": "ထင်ရှားတဲ့ မြန်မာလူကြီးများ",
+      "page": 88,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Famous Myanmar People",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/8f2d1c92-4f2a-4d12-bb2d-98d2c0cfbd2b",
+          "duration": "00:05:14"
+        }
+      ],
+      "about": {
+        "description_en": "Read about famous people in Myanmar's history.",
+        "description_my": "မြန်မာသမိုင်းတွင် ထင်ရှားတဲ့ လူကြီးများအကြောင်း ဖတ်ရှုမယ်။"
+      }
+    },
+    {
+      "lesson_id": 32,
+      "title_en": "Creative Writing",
+      "title_my": "ဖန်တီးမှုစွမ်းရည် စာရေးခြင်း",
+      "page": 92,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Creative Writing",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/4f2e2f9e-0d3f-41cf-8d1c-88b3b2f9469b",
+          "duration": "00:04:44"
+        }
+      ],
+      "about": {
+        "description_en": "Practice writing creatively using prompts.",
+        "description_my": "ပံ့ပိုးစာကြောင်းများကို အသုံးပြုပြီး ဖန်တီးမှုစွမ်းရည်ရှိစွာ စာရေးသားမယ်။"
+      }
+    },
+    {
+      "lesson_id": 33,
+      "title_en": "Nature Walk",
+      "title_my": "သဘာဝလမ်းလျှောက်",
+      "page": 95,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Nature Walk",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/2c1e6f48-8a72-4f69-ae32-9e14e38f9d8b",
+          "duration": "00:03:38"
+        }
+      ],
+      "about": {
+        "description_en": "Observe nature and write about your findings.",
+        "description_my": "သဘာဝကို စူးစမ်းပြီး ကိုယ်တွေ့မြင်တွေ့ကြုံချက်တွေကို ရေးသားမယ်။"
+      }
+    },
+    {
+      "lesson_id": 34,
+      "title_en": "Learning About Birds",
+      "title_my": "ငှက်များအကြောင်း လေ့လာခြင်း",
+      "page": 98,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Learning About Birds",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/63d9c1ef-8f7e-4e0f-ae7b-96f2b431c0f7",
+          "duration": "00:05:01"
+        }
+      ],
+      "about": {
+        "description_en": "Study different birds and their habitats.",
+        "description_my": "အမျိုးမျိုးသော ငှက်များနဲ့ ၎င်းတို့နေရာအကြောင်း လေ့လာမယ်။"
+      }
+    },
+    {
+      "lesson_id": 35,
+      "title_en": "Festivals Around Myanmar",
+      "title_my": "မြန်မာနိုင်ငံပေါင်းစုံရှိ ပွဲတော်များ",
+      "page": 102,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Festivals Around Myanmar",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/5d3e0a5f-c5b1-44f5-9c8e-ef1b3a0e1f5c",
+          "duration": "00:04:50"
+        }
+      ],
+      "about": {
+        "description_en": "Learn about cultural festivals celebrated across Myanmar.",
+        "description_my": "မြန်မာနိုင်ငံပေါင်းစုံတွင် ကျင်းပသော ယဉ်ကျေးမှုပွဲတော်များအကြောင်း လေ့လာမယ်။"
+      }
+    },
+    {
+      "lesson_id": 36,
+      "title_en": "Review Lesson 2",
+      "title_my": "ပြန်လှန်သင်ကြားခြင်း (၂)",
+      "page": 106,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Review Lesson 2",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/78e4c01e-70d3-4b6f-aecf-293e2b0f6f5d",
+          "duration": "00:06:30"
+        }
+      ],
+      "about": {
+        "description_en": "Review all lessons learned in this book.",
+        "description_my": "ဒီစာအုပ်အတွင်း သင်ကြားပြီးသည့် သင်ခန်းစာအားလုံးကို ပြန်လည်လေ့လာမယ်။"
+      }
+    }
+  ]
+}

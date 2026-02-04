@@ -1,7 +1,7 @@
 // utils/normalizeQuery.js
 import keywordMap from "./keywordMap.js";
 
-// Convert Myanmar numbers to English numbers
+// Convert Myanmar numbers to English
 function myanmarToEnglishNumbers(text) {
   const map = { "၀":"0","၁":"1","၂":"2","၃":"3","၄":"4","၅":"5","၆":"6","၇":"7","၈":"8","၉":"9" };
   return text.replace(/[၀-၉]/g, d => map[d]);

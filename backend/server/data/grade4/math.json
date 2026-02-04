@@ -1,0 +1,344 @@
+{
+  "book": {
+    "title_en": "Mathematics Text (Grade 4)",
+    "title_my": "စတုတ္ထတန်း သင်္ချာ",
+    "grade": 4,
+    "languages": ["my"]
+  },
+  "intro": [
+    {
+      "page": 1,
+      "title_en": "Book Cover",
+      "title_my": "စာအုပ်မျက်နှာဖုံး",
+      "description_en": "This is the front cover of the Grade 4 Mathematics textbook, featuring numbers and geometric shapes.",
+      "description_my": "ဂဏန်းသင်္ချာနဲ့ ပုံသဏ္ဌာန်တွေကို ပျော်ပျော်ရွှင်ရွှင်လေ့လာနိုင်မယ့် စတုတ္ထတန်း သင်္ချာဖတ်စာအုပ် မျက်နှာဖုံးဖြစ်သည်။"
+    }
+  ],
+  "table_of_contents": [
+    {
+      "lesson_id": 1,
+      "title_en": "Numbers",
+      "title_my": "ကိန်းများ",
+      "page": 1,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Numbers",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/fa8dc08f-5955-4b6e-ba26-d037c1de0b0a",
+          "duration": "00:46:05"
+        }
+      ],
+      "about": {
+        "description_en": "Introduction to numbers and counting.",
+        "description_my": "ကိန်းဂဏန်းများနှင့် စဉ်ရေတွက်ခြင်းအကြောင်း ကို မိတ်ဆက်ပါသည်။"
+      }
+    },
+    {
+      "lesson_id": 2,
+      "title_en": "Line Graphs",
+      "title_my": "မျဉ်းဂရပ်",
+      "page": 12,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Line Graphs",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/a25256bf-6fb7-4dfd-b437-5f4aa5bbe75e",
+          "duration": "00:45:07"
+        }
+      ],
+      "about": {
+        "description_en": "Learn how to interpret and draw line graphs.",
+        "description_my": "မျဉ်းဂရပ်ကို ဖတ်နည်းနှင့် ဆွဲနည်းကို လေ့လာပါ။"
+      }
+    },
+    {
+      "lesson_id": 3,
+      "title_en": "Division Lesson 1",
+      "title_my": "အစား သင်ခန်းစာ ၁",
+      "page": 20,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Division Lesson 1",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/9a370f68-6db4-4813-a1f8-c15ef65bc5ef",
+          "duration": "00:44:31"
+        }
+      ],
+      "about": {
+        "description_en": "Introduction to division and its applications.",
+        "description_my": "အစားခြားခြင်းနှင့် ၎င်း၏အသုံးချနည်းများကို မိတ်ဆက်ပါသည်။"
+      }
+    },
+    {
+      "lesson_id": 4,
+      "title_en": "Review Exercise 1",
+      "title_my": "ပြန်လှန်လေ့ကျင့်ခန်း ၁",
+      "page": 35,
+      "videos": [],
+      "about": {
+        "description_en": "Practice exercises for previous lessons.",
+        "description_my": "အရင်သင်ခန်းစာများအတွက် လေ့ကျင့်ခန်းများ။"
+      }
+    },
+    {
+      "lesson_id": 5,
+      "title_en": "Angles",
+      "title_my": "ထောင့်များ",
+      "page": 37,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Angles",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/3400db4f-d92e-4475-b75b-3aa4ec1086bf",
+          "duration": "00:43:38"
+        }
+      ],
+      "about": {
+        "description_en": "Introduction to angles and measuring them.",
+        "description_my": "ထောင့်များနှင့် ၎င်းတို့ကို တိုင်းတာနည်း မိတ်ဆက်ခြင်း။"
+      }
+    },
+    {
+      "lesson_id": 6,
+      "title_en": "Decimals Lesson 1",
+      "title_my": "ဒသမကိန်း သင်ခန်းစာ ၁",
+      "page": 48,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Decimals Lesson 1",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/3396af35-3d78-426c-b33c-450a8b62df46",
+          "duration": "00:38:23"
+        }
+      ],
+      "about": {
+        "description_en": "Learn about decimals and their use in calculations.",
+        "description_my": "ဒသမကိန်းများနှင့် တွက်ချက်မှုတွင် ၎င်းတို့၏ အသုံးချနည်းကို သင်ယူပါ။"
+      }
+    },
+    {
+      "lesson_id": 7,
+      "title_en": "Approximation (Rounding)",
+      "title_my": "နီးရာတန်ဖိုးများ",
+      "page": 59,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Approximation (Rounding)",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/da7ce088-c5be-485a-9722-feaf43f7fed7",
+          "duration": "00:26:38"
+        }
+      ],
+      "about": {
+        "description_en": "Learn rounding and approximating numbers.",
+        "description_my": "ဂဏန်းများကို နီးရာတန်ဖိုးဖြင့် ခန့်မှန်းခြင်းကို သင်ယူပါ။"
+      }
+    },
+    {
+      "lesson_id": 8,
+      "title_en": "Division Lesson 2",
+      "title_my": "အစား သင်ခန်းစာ ၂",
+      "page": 66,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Division Lesson 2",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/21869966-afe2-46fa-8875-ffea2c1de3ad",
+          "duration": "00:59:49"
+        }
+      ],
+      "about": {
+        "description_en": "Advanced division exercises.",
+        "description_my": "အဆင့်မြင့် အစားခြားခြင်း လေ့ကျင့်ခန်းများ။"
+      }
+    },
+    {
+      "lesson_id": 9,
+      "title_en": "Review Exercise 2",
+      "title_my": "ပြန်လှန်လေ့ကျင့်ခန်း ၂",
+      "page": 80,
+      "videos": [],
+      "about": {
+        "description_en": "Review exercises for recent lessons.",
+        "description_my": "နောက်ဆုံး သင်ခန်းစာများအတွက် ပြန်လည်လေ့ကျင့်မှုများ။"
+      }
+    },
+    {
+      "lesson_id": 10,
+      "title_en": "Rules of Calculation",
+      "title_my": "တွက်ချက်မှုဆိုင်ရာစည်းမျဉ်းများ",
+      "page": 83,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Rules of Calculation",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/e8f5194d-d915-4629-adfc-7e16d2487a82",
+          "duration": "00:38:46"
+        }
+      ],
+      "about": {
+        "description_en": "Learn the basic rules of calculation.",
+        "description_my": "တွက်ချက်မှု၏ အခြေခံစည်းမျဉ်းများကို သင်ယူပါ။"
+      }
+    },
+    {
+      "lesson_id": 11,
+      "title_en": "Quadrilaterals",
+      "title_my": "စတုဂံများ",
+      "page": 92,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Quadrilaterals",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/f835908e-9199-4080-a69f-d23407d0147a",
+          "duration": "01:47:03"
+        }
+      ],
+      "about": {
+        "description_en": "Learn about quadrilaterals and their properties.",
+        "description_my": "စတုဂံများနှင့် ၎င်းတို့၏ အင်္ဂါရပ်များကို သင်ယူပါ။"
+      }
+    },
+    {
+      "lesson_id": 12,
+      "title_en": "Decimals Lesson 2",
+      "title_my": "ဒသမကိန်း သင်ခန်းစာ ၂",
+      "page": 115,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Decimals Lesson 2",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/2a1c0820-5b23-4096-82f9-945fc4c13d0a",
+          "duration": "00:50:46"
+        }
+      ],
+      "about": {
+        "description_en": "More practice with decimals.",
+        "description_my": "ဒသမကိန်းများနှင့် ပိုမိုလေ့ကျင့်ပါ။"
+      }
+    },
+    {
+      "lesson_id": 13,
+      "title_en": "Review Exercise 3",
+      "title_my": "ပြန်လှန်လေ့ကျင့်ခန်း ၃",
+      "page": 126,
+      "videos": [],
+      "about": {
+        "description_en": "Exercises for recent lessons.",
+        "description_my": "နောက်ဆုံး သင်ခန်းစာများအတွက် လေ့ကျင့်မှုများ။"
+      }
+    },
+    {
+      "lesson_id": 14,
+      "title_en": "Calculation using Approximation",
+      "title_my": "နီးရာတန်ဖိုးများကို အသုံးပြု၍ တွက်ခြင်း",
+      "page": 128,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Calculation using Approximation",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/959e6f4a-ee28-4ceb-b82c-9533bc9c7db5",
+          "duration": "00:25:18"
+        }
+      ],
+      "about": {
+        "description_en": "Practice using approximated numbers in calculations.",
+        "description_my": "နီးရာတန်ဖိုးများကို တွက်ချက်မှုတွင် အသုံးပြုပြီး လေ့ကျင့်ပါ။"
+      }
+    },
+    {
+      "lesson_id": 15,
+      "title_en": "Symmetry",
+      "title_my": "ခေါက်ချိုးညီမျဉ်း",
+      "page": 134,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Symmetry",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/4b18c7dd-233b-4325-bdc7-3dff8d8ff306",
+          "duration": "00:18:39"
+        }
+      ],
+      "about": {
+        "description_en": "Learn about symmetry in shapes.",
+        "description_my": "ပုံစံများတွင် ခေါက်ချိုးညီမျဉ်းကို သင်ယူပါ။"
+      }
+    },
+    {
+      "lesson_id": 16,
+      "title_en": "Area",
+      "title_my": "ဧရိယာ",
+      "page": 139,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Area",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/a2f9605b-f854-4e3a-929e-0d3d84ceb1ce",
+          "duration": "00:46:23"
+        }
+      ],
+      "about": {
+        "description_en": "Learn to calculate area of shapes.",
+        "description_my": "ပုံစံများ၏ ဧရိယာကို တွက်နည်း သင်ယူပါ။"
+      }
+    },
+    {
+      "lesson_id": 17,
+      "title_en": "Fractions",
+      "title_my": "အပိုင်းကိန်း",
+      "page": 156,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Fractions",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/aa202897-ba1d-4c3a-96ba-728323c0d05a",
+          "duration": "00:51:14"
+        }
+      ],
+      "about": {
+        "description_en": "Introduction to fractions and their uses.",
+        "description_my": "အပိုင်းကိန်းများနှင့် အသုံးချနည်းကို သင်ယူပါ။"
+      }
+    },
+    {
+      "lesson_id": 18,
+      "title_en": "English Units",
+      "title_my": "အင်္ဂလိပ်ယူနစ်များ",
+      "page": 168,
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "English Units",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/ada81143-3eb2-46ea-be2d-f4c36d6296b0",
+          "duration": "00:14:44"
+        }
+      ],
+      "about": {
+        "description_en": "Learn about English measurement units.",
+        "description_my": "အင်္ဂလိပ်တိုင်းတာယူနစ်များကို သင်ယူပါ။"
+      }
+    },
+    {
+      "lesson_id": 19,
+      "title_en": "Review Exercise 4",
+      "title_my": "ပြန်လှန်လေ့ကျင့်ခန်း ၄",
+      "page": 172,
+      "videos": [],
+      "about": {
+        "description_en": "Review exercises for lessons covered so far.",
+        "description_my": "ယခုအထိ သင်ကြားထားသည့် သင်ခန်းစာများအတွက် ပြန်လည်လေ့ကျင့်မှု။"
+      }
+    },
+    {
+      "lesson_id": 20,
+      "title_en": "General Exercises",
+      "title_my": "အထွေထွေလေ့ကျင့်ခန်း",
+      "page": 175,
+      "videos": [],
+      "about": {
+        "description_en": "General exercises for all topics covered.",
+        "description_my": "အကုန်လုံး သင်ကြားသည့် အကြောင်းအရာများအတွက် အထွေထွေလေ့ကျင့်မှု။"
+      }
+    }
+  ]
+}

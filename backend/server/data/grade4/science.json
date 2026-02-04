@@ -1,0 +1,259 @@
+{
+  "book": {
+    "title_en": "Science Text (Grade 4)",
+    "title_my": "စတုတ္ထတန်း သိပ္ပံ",
+    "grade": 4,
+    "languages": ["my"]
+  },
+  "intro": [
+    {
+      "page": 1,
+      "title_en": "Book Cover",
+      "title_my": "စာအုပ်မျက်နှာဖုံး",
+      "description_en": "This is the front cover of the Grade 4 Science textbook, showing fun science topics for kids.",
+      "description_my": "သိပ္ပံပညာရပ်တွေကို ပျော်ပျော်ရွှင်ရွှင်လေ့လာနိုင်မယ့် စတုတ္ထတန်း သိပ္ပံဖတ်စာအုပ် မျက်နှာဖုံးဖြစ်သည်။"
+    }
+  ],
+  "table_of_contents": [
+    {
+      "lesson_id": 1,
+      "title_en": "Plant Groups and Germination",
+      "title_my": "အပင်အုပ်စုများနှင့် အစေ့မှအပင်ပေါက်ခြင်း",
+      "page": 4,
+      "about": {
+        "description_en": "Learn to group plants and explore how seeds grow into plants. Observe flowers, leaves, and stems to classify them.",
+        "description_my": "အပင်တွေကို အုပ်စုခွဲခြင်းနဲ့ အစေ့ကနေ အပင်ပေါက်လာပုံကို လေ့လာပါ။ ပန်း၊ အရွက်နဲ့ မျက်နှာချင်းဆိုင်ပေါ်က အချက်များကို ကြည့်ပြီး အုပ်စုခွဲပါ။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "(၁) အပင်များကို အုပ်စုခွဲခြားခြင်း",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/b0bca035-8349-41ff-8fe1-1f9a14f4e91c",
+          "duration": "00:10:48"
+        },
+        {
+          "video_id": 2,
+          "title_en": "(၂) အစေ့မှ အပင်ပေါက်ခြင်း",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/7ac55155-ac99-454d-aad7-f0b40266f0f5",
+          "duration": "00:11:56"
+        }
+      ]
+    },
+    {
+      "lesson_id": 2,
+      "title_en": "Body Processes",
+      "title_my": "ခန္ဓာကိုယ်၏ လုပ်ငန်းစဉ်များ",
+      "page": 14,
+      "about": {
+        "description_en": "Learn how the human body works, from breathing to moving muscles. Understand how your body functions every day.",
+        "description_my": "ခန္ဓာကိုယ်ဘယ်လို လုပ်ဆောင်တယ်ဆိုတာကို သင်ယူပါ၊ အသက်ရှူခြင်းနဲ့ ကြွက်သားလှုပ်ရှားမှုတို့အထိ သိပါစေ။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "(၁) အသက်ရှူခြင်း",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/224c398f-10da-4a1f-9d88-f27d45d98eea",
+          "duration": "00:10:59"
+        },
+        {
+          "video_id": 2,
+          "title_en": "(၂) ခန္ဓာကိုယ် လှုပ်ရှားခြင်း",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/527c6ae5-fdea-4f14-bd45-b13c2c436c54",
+          "duration": "00:11:43"
+        }
+      ]
+    },
+    {
+      "lesson_id": 3,
+      "title_en": "Animal Groups",
+      "title_my": "တိရစ္ဆာန်အုပ်စုများ",
+      "page": 22,
+      "about": {
+        "description_en": "Discover how animals are grouped based on their features and habitats, including vertebrates and invertebrates.",
+        "description_my": "တိရစ္ဆာန်တွေကို သူတို့ရဲ့ အင်္ဂါရပ်နဲ့ နေထိုင်ရာအရ အုပ်စုခွဲထားပုံကို လေ့လာပါ၊ ကျောရိုးရှိ/မရှိ တို့အပါအဝင်။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "(၁) တိရစ္ဆာန်များကို အုပ်စုခွဲခြားခြင်း",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/89b6a88a-9bdd-4fa9-a378-89d40ec9adac",
+          "duration": "00:07:46"
+        },
+        {
+          "video_id": 2,
+          "title_en": "(၂) ကျောရိုးရှိတိရစ္ဆာန်များကို အုပ်စုခွဲခြားခြင်း",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/8ce8f553-f7aa-4295-936b-094744250a78",
+          "duration": "00:14:14"
+        }
+      ]
+    },
+    {
+      "lesson_id": 4,
+      "title_en": "Forces and Motion",
+      "title_my": "အားနှင့်ရွေ့လျားမှု",
+      "page": 32,
+      "about": {
+        "description_en": "Learn about push and pull forces, and how they make objects move, speed up, or slow down.",
+        "description_my": "တွန်းအားနဲ့ ဆွဲအားတွေကို လေ့လာပြီး အရာဝတ္ထုတွေ ဘယ်လိုရွေ့သွားစေ၊ မြန်အောင် သို့မဟုတ် နှေးအောင်လုပ်နိုင်တာကို သိပါစေ။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "(၁) တွန်းအားနှင့် ဆွဲအား",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/39bf776f-a442-4119-8414-6bd960b0d64b",
+          "duration": "00:11:58"
+        },
+        {
+          "video_id": 2,
+          "title_en": "(၂) အားကပြုလုပ်ပေးနိုင်သောအရာများ",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/78dff113-bfd5-4635-ae5d-75015aa0359f",
+          "duration": "00:10:53"
+        }
+      ]
+    },
+    {
+      "lesson_id": 5,
+      "title_en": "Properties of Matter",
+      "title_my": "ဒြပ်ဝတ္ထုများ",
+      "page": 40,
+      "about": {
+        "description_en": "Explore matter, its properties, and how to describe and compare different materials scientifically.",
+        "description_my": "ဒြပ်ဝတ္ထုများ၊ ဂုဏ်သတ္တိများနဲ့ အမျိုးအစားအလိုက် သဘာဝအရ ဖော်ပြခြင်းနဲ့ နှိုင်းယှဉ်ခြင်းကို လေ့လာပါ။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "(၁) ဒြပ်ဝတ္ထုများကို ဖော်ပြခြင်းနှင့် တိုင်းတာခြင်း",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/492d4d27-cd1b-4e8c-b62c-549086cc3d6e",
+          "duration": "00:12:37"
+        },
+        {
+          "video_id": 2,
+          "title_en": "(၂) ဒြပ်ဝတ္ထုတို့၏ ဂုဏ်သတ္တိများကို နှိုင်းယှဉ်ခြင်း",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/290838d5-038f-4ea3-8eda-65254b70041c",
+          "duration": "00:10:23"
+        }
+      ]
+    },
+    {
+      "lesson_id": 6,
+      "title_en": "Magnetism and Electricity",
+      "title_my": "သံလိုက်နှင့် လျှပ်စစ်",
+      "page": 46,
+      "about": {
+        "description_en": "Investigate magnets and learn the basics of electricity. Discover how these forces are used in everyday life.",
+        "description_my": "သံလိုက်တွေကို စူးစမ်းလေ့လာပြီး လျှပ်စစ်အခြေခံကို သိပါ။ ဒီအားတွေကို နေ့စဉ်ဘဝမှာ ဘယ်လိုအသုံးချနိုင်သလဲ သိရှိပါ။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "(၁) သံလိုက်ကို စူးစမ်းလေ့လာခြင်း",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/d3cdca81-bccf-4844-be86-3a495d563781",
+          "duration": "00:15:47"
+        },
+        {
+          "video_id": 2,
+          "title_en": "(၂) လျှပ်စစ်သဘာဝ",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/ccbce64f-30d9-4fb1-af72-3938d476002e",
+          "duration": "00:10:47"
+        }
+      ]
+    },
+    {
+      "lesson_id": 7,
+      "title_en": "Light and Sound",
+      "title_my": "အလင်းနှင့် အသံ",
+      "page": 54,
+      "about": {
+        "description_en": "Discover how light travels and how sound moves. Learn how to measure distances and intensity scientifically.",
+        "description_my": "အလင်းဘယ်လို ဖြတ်သန်းသလဲ၊ အသံဘယ်လို ရွေ့သလဲဆိုတာ သင်ယူပါ။ အကွာအဝေးနဲ့ အသံအတိုးအကျယ်ကို သဘာဝအရ တိုင်းတာနည်းတွေကိုလည်း လေ့လာပါ။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "(၁) အလင်းသဘာဝ",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/f2d100ce-c3a6-4d99-b9f9-206e5039ad4c",
+          "duration": "00:09:07"
+        },
+        {
+          "video_id": 2,
+          "title_en": "(၂) အသံအတိုးအကျယ်နှင့် အကွာအဝေး",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/390cd0c1-dfbc-41cf-8fb2-d445ce913b3b",
+          "duration": "00:11:04"
+        }
+      ]
+    },
+    {
+      "lesson_id": 8,
+      "title_en": "Soil and Earth Layers",
+      "title_my": "မြေမှုန်နှင့် မြေဆီလွှာများ",
+      "page": 62,
+      "about": {
+        "description_en": "Examine soil and earth layers. Learn about rocks, minerals, and how soil supports plant life.",
+        "description_my": "မြေမှုန်နဲ့ မြေဆီလွှာတွေကို စူးစမ်းပါ။ ကျောက်များ၊ သတ္တုများနဲ့ မြေက အပင်ဘဝကို ဘယ်လိုထောက်ပံ့ပေးသလဲဆိုတာကို သိပါ။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "(၁) ကျောက်ခြေမွှခြင်းနှင့် တိုက်စားခြင်း",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/8b3b7fa9-2c79-45b1-b69a-f1b0b058a15c",
+          "duration": "00:09:52"
+        },
+        {
+          "video_id": 2,
+          "title_en": "(၂) မြေဆီလွှာများ၏ ဂုဏ်သတ္တိများ",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/8d089f88-b494-4162-8465-a45b00bc1da7",
+          "duration": "00:09:35"
+        }
+      ]
+    },
+    {
+      "lesson_id": 9,
+      "title_en": "Water Cycle",
+      "title_my": "ရေသံသရာလည်ခြင်း",
+      "page": 70,
+      "about": {
+        "description_en": "Learn about the water cycle and how water moves through the environment. Understand evaporation, condensation, and precipitation.",
+        "description_my": "ရေသံသရာလည်ခြင်းနဲ့ ရေဘယ်လို သဘာဝပတ်ဝန်းကျင်မှာရွေ့လျားသလဲကို သင်ယူပါ။ ဖျော်ရည်၊ ထုထည်မှုနဲ့ မိုးရွာခြင်းတို့ကို သိပါ။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "(၁) ကမ္ဘာပေါ်ရှိ ရေ၏အခြေအနေပြောင်းလဲပုံအမျိုးမျိုး",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/cea729d8-2145-4d35-a48c-bdf295f0b86b",
+          "duration": "00:10:18"
+        },
+        {
+          "video_id": 2,
+          "title_en": "(၂) ကမ္ဘာပေါ်ရှိ ရေ၏ရွေ့လျားမှု",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/0f2c0c2f-9535-4445-9e9a-9fbd10499eda",
+          "duration": "00:11:48"
+        }
+      ]
+    },
+    {
+      "lesson_id": 10,
+      "title_en": "Earth, Moon, and Sun",
+      "title_my": "ကမ္ဘာ၊ လ နှင့် နေ",
+      "page": 78,
+      "about": {
+        "description_en": "Explore the movement of the Earth, Moon, and Sun. Understand day, night, and seasons in our world.",
+        "description_my": "ကမ္ဘာ၊ လ နဲ့ နေတို့ဘယ်လိုလှုပ်ရွှားကြတာလဲဆိုတာ လေ့လာပါ။ နေ့၊ ညနဲ့ ရာသီဥတုများကို သိရှိပါ။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "(၁) ကမ္ဘာ၏ ရွေ့လျားမှု",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/c85da7f3-16c3-470f-93ec-3a7b55d7a54c",
+          "duration": "00:08:15"
+        },
+        {
+          "video_id": 2,
+          "title_en": "(၂) လ၏ ရွေ့လျားမှု",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/7b9a42bc-b7a1-4583-a691-bdbd7c69b51e",
+          "duration": "00:12:00"
+        }
+      ]
+    }
+  ]
+}

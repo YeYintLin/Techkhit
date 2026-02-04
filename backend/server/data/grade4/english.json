@@ -1,0 +1,261 @@
+{
+  "book": {
+    "title_en": "English Text (Grade 4)",
+    "title_my": "စတုတ္ထတန်း အင်္ဂလိပ်စာ",
+    "grade": 4,
+    "languages": ["en", "my"]
+  },
+  "intro": [
+    {
+      "page": 1,
+      "title_en": "Book Cover",
+      "title_my": "စာအုပ်မျက်နှာဖုံး",
+      "description_en": "This is the front cover of the Grade 4 English textbook from the Ministry of Education, Myanmar.",
+      "description_my": "မြန်မာနိုင်ငံ ပညာရေးဝန်ကြီးဌာနမှ ထုတ်ဝေသော စတုတ္ထတန်း အင်္ဂလိပ်စာ သင်ရိုးသစ် ဖတ်စာအုပ်ဖြစ်သည်။"
+    }
+  ],
+  "table_of_contents": [
+    {
+      "lesson_id": 1,
+      "title_en": "People around us",
+      "title_my": "ကျွန်ုပ်တို့ ပတ်ဝန်းကျင်မှ လူများ",
+      "page": 1,
+      "about": {
+        "description_en": "Let's learn how to describe our friends! We will talk about being tall, short, slim, or plump, and describe different hair styles.",
+        "description_my": "သူငယ်ချင်းတွေရဲ့ ရုပ်သွင်ပြင်ကို ဘယ်လိုပြောရမလဲဆိုတာ သင်ယူကြမယ်။ အရပ်ရှည်တာ၊ ပုတာ၊ ပိန်တာ၊ ဝတာနဲ့ ဆံပင်ပုံစံတွေကို အင်္ဂလိပ်လို ပြောတတ်လာမှာပါ။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Lesson 1 I am short and slim",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/554f0d3f-9df7-449b-897f-e403844d8526"
+        },
+        {
+          "video_id": 2,
+          "title_en": "Lesson 2 Is he cheerful?",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/d93bfc77-f33d-4832-a428-a8261e1741d6"
+        }
+      ]
+    },
+    {
+      "lesson_id": 2,
+      "title_en": "Animals",
+      "title_my": "တိရစ္ဆာန်များ",
+      "page": 10,
+      "about": {
+        "description_en": "Explore the wonderful world of animals! Learn their names, where they live, and the fun things they do.",
+        "description_my": "ချစ်စရာကောင်းတဲ့ တိရစ္ဆာန်လေးတွေရဲ့ အမည်တွေ၊ သူတို့နေထိုင်ရာနေရာတွေနဲ့ သူတို့ရဲ့ သဘာဝလေးတွေကို ပျော်ပျော်ရွှင်ရွှင် လေ့လာကြမယ်။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Lesson 1 There is/are ...",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/cd57d8fe-9ffa-4fb6-80c2-8c3683e29be8"
+        },
+        {
+          "video_id": 2,
+          "title_en": "Lesson 2 Is it a land animal?",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/c97d39c9-0708-408f-831d-a1d5474d9c21"
+        }
+      ]
+    },
+    {
+      "lesson_id": 3,
+      "title_en": "Seasons in Myanmar",
+      "title_my": "မြန်မာနိုင်ငံ၏ ရာသီဥတုများ",
+      "page": 22,
+      "about": {
+        "description_en": "How is the weather today? Learn about the hot, rainy, and cold seasons in our country and what we like to do in each one.",
+        "description_my": "ဒီနေ့ ရာသီဥတု ဘယ်လိုရှိသလဲ? တို့မြန်မာနိုင်ငံမှာရှိတဲ့ နွေ၊ မိုး၊ ဆောင်း ရာသီဥတု သုံးပါးအကြောင်းနဲ့ ရာသီအလိုက် ထူးခြားချက်တွေကို လေ့လာရမှာပါ။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Lesson 1 It's sunny today.",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/c85a6624-5fed-4046-a7af-1c5deafe7292"
+        },
+        {
+          "video_id": 2,
+          "title_en": "Lesson 2 What's your favorite season?",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/0c833297-3daf-45cb-87a3-1a72daa4411d"
+        }
+      ]
+    },
+    {
+      "lesson_id": 4,
+      "title_en": "Happy days in my life",
+      "title_my": "ပျော်ရွှင်စရာ နေ့ရက်များ",
+      "page": 30,
+      "about": {
+        "description_en": "Let's talk about our birthdays and special festivals! We will learn how to share the happy moments that make us smile.",
+        "description_my": "မွေးနေ့ပွဲတွေနဲ့ ထူးခြားတဲ့ ပွဲတော်ရက်တွေအကြောင်း ပြောကြမယ်။ တို့ကို ပျော်ရွှင်စေတဲ့ အမှတ်တရတွေကို ဘယ်လို ပြောပြရမလဲဆိုတာ သင်ယူရမှာပါ။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Lesson 1 Her birthday is on ...",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/7af92d49-4a5c-4df4-8064-89bdf8eef1a7"
+        },
+        {
+          "video_id": 2,
+          "title_en": "Lesson 2 What do you do at Thingyan?",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/5fb40f76-6116-40ab-9d05-fe1864b95b74"
+        }
+      ]
+    },
+    {
+      "lesson_id": 5,
+      "title_en": "Shopping",
+      "title_my": "ဈေးဝယ်ထွက်ခြင်း",
+      "page": 42,
+      "about": {
+        "description_en": "Ready to go to the market? Learn how to ask for things you want and talk about how much they cost.",
+        "description_my": "ဈေးဝယ်ထွက်ဖို့ အဆင်သင့်ပဲလား? ကိုယ်လိုချင်တဲ့ ပစ္စည်းလေးတွေကို ဘယ်လိုတောင်းရမလဲ၊ ဈေးနှုန်းတွေကို ဘယ်လိုမပြောရမလဲဆိုတာ သင်ယူကြမယ်။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Lesson 1 Her birthday is on ...",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/7af92d49-4a5c-4df4-8064-89bdf8eef1a7"
+        },
+        {
+          "video_id": 2,
+          "title_en": "Lesson 2 What do you do at Thingyan?",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/5fb40f76-6116-40ab-9d05-fe1864b95b74"
+        }
+      ]
+    },
+    {
+      "lesson_id": 5,
+      "title_en": "Shopping",
+      "title_my": "ဈေးဝယ်ထွက်ခြင်း",
+      "page": 42,
+      "about": {
+        "description_en": "Ready to go to the market? Learn how to ask for things you want and talk about how much they cost.",
+        "description_my": "ဈေးဝယ်ထွက်ဖို့ အဆင်သင့်ပဲလား? ကိုယ်လိုချင်တဲ့ ပစ္စည်းလေးတွေကို ဘယ်လိုတောင်းရမလဲ၊ ဈေးနှုန်းတွေကို ဘယ်လိုမပြောရမလဲဆိုတာ သင်ယူကြမယ်။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Lesson 1 Her birthday is on ...",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/7af92d49-4a5c-4df4-8064-89bdf8eef1a7"
+        },
+        {
+          "video_id": 2,
+          "title_en": "Lesson 2 What do you do at Thingyan?",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/5fb40f76-6116-40ab-9d05-fe1864b95b74"
+        }
+      ]
+    },
+    {
+      "lesson_id": 6,
+      "title_en": "Myanmar and its neighbouring countries",
+      "title_my": "မြန်မာနဲ့ အိမ်နီးချင်းနိုင်ငံများ",
+      "page": 50,
+      "about": {
+        "description_en": "Learn about Myanmar and its neighboring countries! Explore their locations, capitals, cultures, and how they connect with Myanmar.",
+        "description_my": "မြန်မာနိုင်ငံနဲ့ အိမ်နီးချင်းနိုင်ငံများအကြောင်းကို လေ့လာကြမယ်။ နေရာများ၊ မြို့မိရိုးစံများ၊ ယဉ်ကျေးမှုများနဲ့ မြန်မာနိုင်ငံနှင့် သက်ဆိုင်မှုများကို သိရှိလာပါမယ်။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Lesson 1 It's to the east",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/728817ef-db5c-4e69-b27d-8b9d78ce3a73"
+        },
+        {
+          "video_id": 2,
+          "title_en": "Lesson 2 Capitals",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/953ca726-5184-40c2-9168-f861512913d4"
+        }
+      ]
+    },
+    {
+      "lesson_id": 7,
+      "title_en": "Clothing",
+      "title_my": "အဝတ်အစား",
+      "page": 62,
+      "about": {
+        "description_en": "Learn about different types of clothes we wear daily! Practice how to describe outfits, colors, and accessories in English.",
+        "description_my": "နေ့စဉ်ဝတ်ဆင်ကြတဲ့ အဝတ်အစားအမျိုးအစားများကို လေ့လာကြမယ်။ အဝတ်အစား၊ အရောင်၊ ပစ္စည်းဆိုင်ရာ အသေးစိတ်တွေကို အင်္ဂလိပ်လို ဖော်ပြတတ်လာပါမယ်။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Lesson 1 He's wearing a yellow T-shirt.",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/f131da2b-a474-4c28-859c-d8c98764f531"
+        },
+        {
+          "video_id": 2,
+          "title_en": "Lesson 2 What do you like to wear?",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/d44e059d-7432-498d-bc13-2c47c18af628"
+        }
+      ]
+    },
+    {
+      "lesson_id": 8,
+      "title_en": "Food and Health",
+      "title_my": "အစားအစာနှင့် ကျန်းမာရေး",
+      "page": 70,
+      "about": {
+        "description_en": "Discover healthy foods that make us grow strong and learn how to keep our bodies fit.",
+        "description_my": "ကျန်းမာကြံ့ခိုင်စေတဲ့ အစားအစာတွေအကြောင်းနဲ့ ကိုယ်ခန္ဓာ ကျန်းမာအောင် ဘယ်လိုနေထိုင်ရမလဲဆိုတာ လေ့လာရမှာပါ။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Lesson 1 For breakfast, for lunch, for dinner",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/133c9f64-16aa-42cd-8c6c-25b0559b7516"
+        },
+        {
+          "video_id": 2,
+          "title_en": "Lesson 2 What is healthy food?",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/93074e22-9fb5-44b5-8de9-52e581854c73"
+        }
+      ]
+    },
+    {
+      "lesson_id": 9,
+      "title_en": "A Holiday",
+      "title_my": "နားရက်တစ်ရက်",
+      "page": 82,
+      "about": {
+        "description_en": "Imagine going on a trip! Learn how to talk about your holiday plans and the places you want to visit.",
+        "description_my": "ကျောင်းပိတ်ရက်မှာ ခရီးသွားဖို့ အစီအစဉ်ဆွဲကြမယ်။ သွားချင်တဲ့နေရာတွေအကြောင်း အင်္ဂလိပ်လို ပြောကြည့်ရအောင်။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Lesson 1 A Holiday",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/4808d873-a497-4207-9739-ab08f4a0ebf1"
+        },
+        {
+          "video_id": 2,
+          "title_en": "Lesson 2 Where did you go last week?",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/90872bf3-9041-4f65-a648-17c98ef3efbe"
+        }
+      ]
+    },
+    {
+      "lesson_id": 10,
+      "title_en": "Things to do",
+      "title_my": "လုပ်ဆောင်စရာများ",
+      "page": 90,
+      "about": {
+        "description_en": "Learn words for different activities and hobbies we enjoy doing in our free time.",
+        "description_my": "အားလပ်ချိန်မှာ လုပ်လေ့ရှိတဲ့ ဝါသနာလေးတွေနဲ့ အားကစား လှုပ်ရှားမှုတွေကို အင်္ဂလိပ်လို သင်ယူကြမယ်။"
+      },
+      "videos": [
+        {
+          "video_id": 1,
+          "title_en": "Lesson 1 I will go to the park.",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/3afee65b-53ef-4cdd-83d6-f8974ab9de01"
+        },
+        {
+          "video_id": 2,
+          "title_en": "Lesson 2 What will you do tomorrow?",
+          "embed_url": "https://iframe.mediadelivery.net/play/128657/e0eff43e-8144-4939-9046-be2db62d5840"
+        }
+      ]
+    }
+  ]
+}
