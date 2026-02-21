@@ -177,9 +177,26 @@ function App({ widgetConfig = {} }) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ grade, subject, message: userMessage, userId: userId.current })
       });
-      const data = await res.json();
 
-      const aiEntry = { role: "ai", text: data.reply.text, videos: data.reply.videos || [], time: new Date().toISOString() };
+      const responseText = await res.text();
+      let data;
+      try {
+        data = responseText ? JSON.parse(responseText) : {};
+      } catch (error) {
+        throw new Error("Chat API returned invalid JSON");
+      }
+
+      if (!res.ok || !data?.reply) {
+        const errorMessage = data?.error || data?.message || "Chat API error";
+        throw new Error(errorMessage);
+      }
+
+      const aiEntry = {
+        role: "ai",
+        text: data.reply.text || "AI did not send a reply.",
+        videos: data.reply.videos || [],
+        time: new Date().toISOString()
+      };
       const updatedMessages = [...baseMessages, aiEntry];
 
       setMessages(prev => {
@@ -628,5 +645,4 @@ function App({ widgetConfig = {} }) {
 }
 
 export default App;
-
 
