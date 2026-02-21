@@ -6,7 +6,7 @@
 2. Run:
 
 ```bash
-npm run docker:up
+npm run setup:docker
 ```
 
 3. Open:
@@ -27,6 +27,7 @@ First translator startup may take longer because it downloads the model from Hug
 ## Docker Commands
 
 ```bash
+npm run setup:docker
 npm run docker:up
 npm run docker:logs
 npm run docker:down
