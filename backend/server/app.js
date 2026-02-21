@@ -3,6 +3,7 @@ import cors from "cors";
 import aiRoutes from "./routes/ai_route.js";
 import translateRoutes from "./routes/translate_route.js";
 import historyRoutes from "./routes/history_route.js";
+import knowledgeRoutes from "./routes/knowledge_route.js";
 import mongoose from "mongoose";
 
 const app = express();
@@ -36,13 +37,15 @@ function isOriginAllowed(origin) {
 app.use(
   cors({
     origin: function (origin, callback) {
-      console.log("Incoming request from origin:", origin); // debug log
+      if (process.env.NODE_ENV !== "production") {
+        console.log("Incoming request from origin:", origin); // debug log
+      }
 
       if (isOriginAllowed(origin)) return callback(null, true);
 
       callback(new Error("CORS policy: Origin not allowed"), false);
     },
-    methods: ["GET", "POST"],
+    methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
   })
 );
@@ -63,5 +66,6 @@ app.get("/", (req, res) => {
 app.use("/api/chat", aiRoutes);
 app.use("/api/translate", translateRoutes);
 app.use("/api/history", historyRoutes);
+app.use("/api/knowledge", knowledgeRoutes);
 
 export default app;

@@ -9,13 +9,13 @@ export default function SearchHistorySidebar({ messages, onSelect }) {
 
   return (
     <div className="history-sidebar">
-      <h3>🕒 Search History</h3>
+      <h3>Search History</h3>
       <ul>
         {history.length === 0 && <li>No history yet</li>}
         {history.map((query, idx) => (
           <li
             key={idx}
-            onClick={() => onSelect(query)}
+            onClick={() => onSelect({ text: query })}
             title={query} // tooltip on hover
           >
             {query}
@@ -25,3 +25,4 @@ export default function SearchHistorySidebar({ messages, onSelect }) {
     </div>
   );
 }
+

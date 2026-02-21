@@ -1,4 +1,4 @@
-﻿import { useState, useRef, useEffect, useCallback } from "react";
+import { useState, useRef, useEffect, useCallback } from "react";
 import { ThreeDots } from "react-loader-spinner";
 import { FaGear } from "react-icons/fa6";
 import { LiaTelegramPlane } from "react-icons/lia";

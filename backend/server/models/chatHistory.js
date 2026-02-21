@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
 const chatHistorySchema = new mongoose.Schema({
+  userId: { type: String, default: "" },
   grade: { type: String, required: true },
   subject: { type: String, required: true },
   messages: [
