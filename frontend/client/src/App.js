@@ -1,5 +1,4 @@
 import { useState, useRef, useEffect, useCallback } from "react";
-import { ThreeDots } from "react-loader-spinner";
 import { FaGear } from "react-icons/fa6";
 import { LiaTelegramPlane } from "react-icons/lia";
 import { FaArrowAltCircleLeft, FaHistory } from "react-icons/fa";
@@ -493,7 +492,15 @@ function App({ widgetConfig = {} }) {
                 </div>
               ))}
 
-              {isTyping && <div className="message ai"><ThreeDots height="20" width="30" color="#32cd32" /></div>}
+              {isTyping && (
+                <div className="message ai">
+                  <div className="typing-spinner" aria-live="polite">
+                    <span />
+                    <span />
+                    <span />
+                  </div>
+                </div>
+              )}
 
               <div ref={chatEndRef} />
             </div>
@@ -645,4 +652,3 @@ function App({ widgetConfig = {} }) {
 }
 
 export default App;
-
