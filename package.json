@@ -6,12 +6,17 @@
     "frontend/client"
   ],
   "scripts": {
-    "start-all": "concurrently -k \"npm run translator --workspace backend\" \"npm run backend --workspace backend\" \"npm start --workspace frontend\""
+    "start-all": "concurrently -k \"npm run translator --workspace backend\" \"npm run backend --workspace backend\" \"npm start --workspace frontend\"",
+    "docker:up": "docker compose up --build -d",
+    "docker:logs": "docker compose logs -f",
+    "docker:down": "docker compose down",
+    "docker:down:volumes": "docker compose down -v"
   },
   "devDependencies": {
     "concurrently": "^8.2.0"
   },
-  "dependencies": {
-    "mongoose": "^9.1.5"
+  "overrides": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }

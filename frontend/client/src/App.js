@@ -1,4 +1,4 @@
-﻿import { useState, useRef, useEffect } from "react";
+﻿import { useState, useRef, useEffect, useCallback } from "react";
 import { ThreeDots } from "react-loader-spinner";
 import { FaGear } from "react-icons/fa6";
 import { LiaTelegramPlane } from "react-icons/lia";
@@ -11,85 +11,85 @@ import "./App.css";
 
 const gradeSubjects = {
   gradekg: [
-    { value: "basic_writing", label: "á€¡á€›á€±á€¸ (á€¡á€á€¼á€±á€á€¶á€¡á€›á€±á€¸á€œá€±á€·á€€á€»á€„á€·á€ºá€á€”á€ºá€¸)" },
-    { value: "writing_myanmar_alphabet", label: "á€¡á€›á€±á€¸ (á€™á€¼á€”á€ºá€™á€¬á€¡á€€á€¹á€á€›á€¬)" },
-    { value: "writing_myanmar_numbers", label: "á€¡á€›á€±á€¸ (á€™á€¼á€”á€ºá€™á€¬á€€á€­á€”á€ºá€¸á€‚á€á€¬á€”á€ºá€¸)" },
-    { value: "writing_english_alphabet", label: "á€¡á€›á€±á€¸ (á€¡á€„á€ºá€¹á€‚á€œá€­á€•á€ºá€¡á€€á€¹á€á€›á€¬)" },
-    { value: "writing_english_numbers", label: "á€¡á€›á€±á€¸ (á€¡á€„á€ºá€¹á€‚á€œá€­á€•á€ºá€€á€­á€”á€ºá€¸á€‚á€á€¬á€”á€ºá€¸)" },
-    { value: "reading_myanmar", label: "á€¡á€–á€á€º" },
-    { value: "reading_english", label: "á€¡á€–á€á€º (á€¡á€„á€ºá€¹á€‚á€œá€­á€•á€º)" },
-    { value: "speaking_myanmar", label: "á€¡á€•á€¼á€±á€¬ (á€™á€¼á€”á€ºá€™á€¬)" },
-    { value: "science_animals", label: "á€žá€­á€•á€¹á€•á€¶ (á€á€­á€›á€…á€¹á€†á€¬á€”á€ºá€™á€»á€¬á€¸á€¡á€€á€¼á€±á€¬á€„á€ºá€¸)" },
-    { value: "science_plants", label: "á€žá€­á€•á€¹á€•á€¶ (á€¡á€•á€„á€ºá€™á€»á€¬á€¸á€¡á€€á€¼á€±á€¬á€„á€ºá€¸)" },
-    { value: "science_self_family_environment", label: "á€žá€­á€•á€¹á€•á€¶ (á€€á€»á€½á€”á€ºá€¯á€•á€ºáŠ á€€á€»á€½á€”á€ºá€¯á€•á€ºáá€™á€­á€žá€¬á€¸á€…á€¯ á€”á€¾á€„á€·á€º á€€á€»á€½á€”á€ºá€¯á€•á€ºáá€•á€á€ºá€á€”á€ºá€¸á€€á€»á€„á€ºá€¡á€€á€¼á€±á€¬á€„á€ºá€¸)" },
-    { value: "science_earth_universe", label: "á€žá€­á€•á€¹á€•á€¶ (á€€á€»á€½á€”á€ºá€¯á€•á€ºá€á€­á€¯á€·á€€á€™á€¹á€˜á€¬á€™á€¼á€±á€€á€¼á€®á€¸áŠ á€€á€±á€¬á€„á€ºá€¸á€€á€„á€ºá€”á€¾á€„á€·á€º á€…á€€á€¼á€¬á€á€ á€¬á€¡á€€á€¼á€±á€¬á€„á€ºá€¸)" },
-    { value: "arts_music", label: "á€¡á€á€¼á€±á€á€¶á€œá€€á€ºá€™á€¾á€¯á€”á€¾á€„á€·á€ºá€¡á€”á€¯á€•á€Šá€¬ (á€‚á€®á€)" },
-    { value: "arts_painting", label: "á€¡á€á€¼á€±á€á€¶á€œá€€á€ºá€™á€¾á€¯á€”á€¾á€„á€·á€ºá€¡á€”á€¯á€•á€Šá€¬ (á€•á€”á€ºá€¸á€á€»á€®)" },
-    { value: "arts_handicraft", label: "á€¡á€á€¼á€±á€á€¶á€œá€€á€ºá€™á€¾á€¯á€”á€¾á€„á€·á€ºá€¡á€”á€¯á€•á€Šá€¬ (á€œá€€á€ºá€™á€¾á€¯)" },
-    { value: "health_personal", label: "á€€á€­á€¯á€šá€ºá€›á€±á€¸á€€á€­á€¯á€šá€ºá€á€¬á€…á€±á€¬á€„á€·á€ºá€›á€¾á€±á€¬á€€á€ºá€™á€¾á€¯á€”á€¾á€„á€·á€º á€€á€»á€”á€ºá€¸á€™á€¬á€›á€±á€¸ (á€€á€­á€¯á€šá€ºá€›á€±á€¸á€€á€­á€¯á€šá€ºá€á€¬á€…á€±á€¬á€„á€·á€ºá€›á€¾á€±á€¬á€€á€ºá€™á€¾á€¯)" },
-    { value: "poetry_english", label: "á€€á€—á€»á€¬ (English)" },
-    { value: "story_english_1", label: "á€•á€¯á€¶á€•á€¼á€„á€ºá€™á€»á€¬á€¸ (English)" },
-    { value: "story_english_2", label: "á€•á€¯á€¶á€•á€¼á€„á€ºá€™á€»á€¬á€¸ (English)" }
+    { value: "basic_writing", label: "basic_writing" },
+    { value: "writing_myanmar_alphabet", label: "writing_myanmar_alphabet" },
+    { value: "writing_myanmar_numbers", label: "writing_myanmar_numbers" },
+    { value: "writing_english_alphabet", label: "writing_english_alphabet" },
+    { value: "writing_english_numbers", label: "writing_english_numbers" },
+    { value: "reading_myanmar", label: "reading_myanmar" },
+    { value: "reading_english", label: "reading_english" },
+    { value: "speaking_myanmar", label: "speaking_myanmar" },
+    { value: "science_animals", label: "science_animals" },
+    { value: "science_plants", label: "science_plants" },
+    { value: "science_self_family_environment", label: "science_self_family_environment" },
+    { value: "science_earth_universe", label: "science_earth_universe" },
+    { value: "arts_music", label: "arts_music" },
+    { value: "arts_painting", label: "arts_painting" },
+    { value: "arts_handicraft", label: "arts_handicraft" },
+    { value: "health_personal", label: "health_personal" },
+    { value: "poetry_english", label: "poetry_english" },
+    { value: "story_english_1", label: "story_english_1" },
+    { value: "story_english_2", label: "story_english_2" }
   ],
   grade1: [
-    { value: "myanmar", label: "á€™á€¼á€”á€ºá€™á€¬á€…á€¬" },
-    { value: "english", label: "á€¡á€„á€ºá€¹á€‚á€œá€­á€•á€ºá€…á€¬" },
-    { value: "math", label: "á€žá€„á€ºá€¹á€á€»á€¬" },
-    { value: "science", label: "á€žá€­á€•á€¹á€•á€¶" },
-    { value: "morality_and_civic", label: "á€…á€¬á€›á€­á€á€¹á€á€”á€¾á€„á€·á€ºá€•á€¼á€Šá€ºá€žá€°á€·á€”á€®á€á€­" },
-    { value: "social_studies", label: "á€œá€°á€™á€¾á€¯á€›á€±á€¸" }
+    { value: "myanmar", label: "myanmar" },
+    { value: "english", label: "english" },
+    { value: "math", label: "math" },
+    { value: "science", label: "science" },
+    { value: "morality_and_civic", label: "morality_and_civic" },
+    { value: "social_studies", label: "social_studies" }
   ],
   grade2: [
-    { value: "myanmar", label: "á€™á€¼á€”á€ºá€™á€¬á€…á€¬" },
-    { value: "english", label: "á€¡á€„á€ºá€¹á€‚á€œá€­á€•á€ºá€…á€¬" },
-    { value: "math", label: "á€žá€„á€ºá€¹á€á€»á€¬" },
-    { value: "science", label: "á€žá€­á€•á€¹á€•á€¶" },
-    { value: "morality_and_civic", label: "á€…á€¬á€›á€­á€á€¹á€á€”á€¾á€„á€·á€ºá€•á€¼á€Šá€ºá€žá€°á€·á€”á€®á€á€­" },
-    { value: "social_studies", label: "á€œá€°á€™á€¾á€¯á€›á€±á€¸" }
+    { value: "myanmar", label: "myanmar" },
+    { value: "english", label: "english" },
+    { value: "math", label: "math" },
+    { value: "science", label: "science" },
+    { value: "morality_and_civic", label: "morality_and_civic" },
+    { value: "social_studies", label: "social_studies" }
   ],
   grade3: [
-    { value: "myanmar", label: "á€™á€¼á€”á€ºá€™á€¬á€…á€¬" },
-    { value: "english", label: "á€¡á€„á€ºá€¹á€‚á€œá€­á€•á€ºá€…á€¬" },
-    { value: "math", label: "á€žá€„á€ºá€¹á€á€»á€¬" },
-    { value: "science", label: "á€žá€­á€•á€¹á€•á€¶" },
-    { value: "morality_and_civic", label: "á€…á€¬á€›á€­á€á€¹á€á€”á€¾á€„á€·á€ºá€•á€¼á€Šá€ºá€žá€°á€·á€”á€®á€á€­" },
-    { value: "social_studies", label: "á€œá€°á€™á€¾á€¯á€›á€±á€¸" }
+    { value: "myanmar", label: "myanmar" },
+    { value: "english", label: "english" },
+    { value: "math", label: "math" },
+    { value: "science", label: "science" },
+    { value: "morality_and_civic", label: "morality_and_civic" },
+    { value: "social_studies", label: "social_studies" }
   ],
   grade4: [
-    { value: "myanmar", label: "á€™á€¼á€”á€ºá€™á€¬á€…á€¬" },
-    { value: "english", label: "á€¡á€„á€ºá€¹á€‚á€œá€­á€•á€ºá€…á€¬" },
-    { value: "math", label: "á€žá€„á€ºá€¹á€á€»á€¬" },
-    { value: "science", label: "á€žá€­á€•á€¹á€•á€¶" },
-    { value: "geography_history", label: "á€•á€‘á€á€®á€á€„á€ºá€”á€¾á€„á€·á€ºá€žá€™á€­á€¯á€„á€ºá€¸" },
-    { value: "visual_art", label: "Visual Art" },
-    { value: "morality_and_civic", label: "á€…á€¬á€›á€­á€á€¹á€á€”á€¾á€„á€·á€ºá€•á€¼á€Šá€ºá€žá€°á€·á€”á€®á€á€­" },
-    { value: "life_skills", label: "Life Skills" },
-    { value: "performing_arts", label: "Performing Arts" },
-    { value: "physical_education", label: "Physical Education" },
-    { value: "social_studies", label: "á€œá€°á€™á€¾á€¯á€›á€±á€¸" }
+    { value: "myanmar", label: "myanmar" },
+    { value: "english", label: "english" },
+    { value: "math", label: "math" },
+    { value: "science", label: "science" },
+    { value: "geography_history", label: "geography_history" },
+    { value: "visual_art", label: "visual_art" },
+    { value: "morality_and_civic", label: "morality_and_civic" },
+    { value: "life_skills", label: "life_skills" },
+    { value: "performing_arts", label: "performing_arts" },
+    { value: "physical_education", label: "physical_education" },
+    { value: "social_studies", label: "social_studies" }
   ],
   grade5: [
-    { value: "myanmar", label: "á€™á€¼á€”á€ºá€™á€¬á€…á€¬" },
-    { value: "english", label: "á€¡á€„á€ºá€¹á€‚á€œá€­á€•á€ºá€…á€¬" },
-    { value: "math", label: "á€žá€„á€ºá€¹á€á€»á€¬" },
-    { value: "science", label: "á€žá€­á€•á€¹á€•á€¶" },
-    { value: "geography_history", label: "á€•á€‘á€á€®á€á€„á€ºá€”á€¾á€„á€·á€ºá€žá€™á€­á€¯á€„á€ºá€¸" },
-    { value: "visual_art", label: "Visual Art" },
-    { value: "morality_and_civic", label: "á€…á€¬á€›á€­á€á€¹á€á€”á€¾á€„á€·á€ºá€•á€¼á€Šá€ºá€žá€°á€·á€”á€®á€á€­" },
-    { value: "life_skills", label: "Life Skills" },
-    { value: "performing_arts", label: "Performing Arts" },
-    { value: "physical_education", label: "Physical Education" },
-    { value: "social_studies", label: "á€œá€°á€™á€¾á€¯á€›á€±á€¸" }
+    { value: "myanmar", label: "myanmar" },
+    { value: "english", label: "english" },
+    { value: "math", label: "math" },
+    { value: "science", label: "science" },
+    { value: "geography_history", label: "geography_history" },
+    { value: "visual_art", label: "visual_art" },
+    { value: "morality_and_civic", label: "morality_and_civic" },
+    { value: "life_skills", label: "life_skills" },
+    { value: "performing_arts", label: "performing_arts" },
+    { value: "physical_education", label: "physical_education" },
+    { value: "social_studies", label: "social_studies" }
   ],
   grade6: [
-    { value: "myanmar", label: "á€™á€¼á€”á€ºá€™á€¬á€…á€¬" },
-    { value: "english", label: "á€¡á€„á€ºá€¹á€‚á€œá€­á€•á€ºá€…á€¬" },
-    { value: "math_one", label: "á€žá€„á€ºá€¹á€á€»á€¬(á)" },
-    { value: "math_two", label: "á€žá€„á€ºá€¹á€á€»á€¬(á‚)" },
-    { value: "science", label: "á€žá€­á€•á€¹á€•á€¶" },
-    { value: "geography", label: "á€•á€‘á€á€®á€á€„á€º" },
-    { value: "history", label: "á€žá€™á€­á€¯á€„á€ºá€¸" },
-    { value: "morality_and_civic", label: "á€…á€¬á€›á€­á€á€¹á€á€”á€¾á€„á€·á€ºá€•á€¼á€Šá€ºá€žá€°á€·á€”á€®á€á€­" }
+    { value: "myanmar", label: "myanmar" },
+    { value: "english", label: "english" },
+    { value: "math_one", label: "math_one" },
+    { value: "math_two", label: "math_two" },
+    { value: "science", label: "science" },
+    { value: "geography", label: "geography" },
+    { value: "history", label: "history" },
+    { value: "morality_and_civic", label: "morality_and_civic" }
   ],
   grade7: [],
   grade8: [],
@@ -99,7 +99,8 @@ const gradeSubjects = {
   grade12: []
 };
 
-function App() {
+
+function App({ widgetConfig = {} }) {
   const [grade, setGrade] = useState("");
   const [subject, setSubject] = useState("");
   const [started, setStarted] = useState(false);
@@ -107,6 +108,16 @@ function App() {
   const [showHistory, setShowHistory] = useState(false);
   const [intercomOpen, setIntercomOpen] = useState(false);
   const [hasNewMessage, setHasNewMessage] = useState(false);
+  const [showKnowledgeModal, setShowKnowledgeModal] = useState(false);
+  const [knowledgeGrade, setKnowledgeGrade] = useState("");
+  const [knowledgeSubject, setKnowledgeSubject] = useState("");
+  const [knowledgeChapter, setKnowledgeChapter] = useState("");
+  const [knowledgeText, setKnowledgeText] = useState("");
+  const [knowledgeFile, setKnowledgeFile] = useState(null);
+  const [knowledgeItems, setKnowledgeItems] = useState([]);
+  const [knowledgeSaving, setKnowledgeSaving] = useState(false);
+  const [knowledgeError, setKnowledgeError] = useState("");
+  const [knowledgeEditingId, setKnowledgeEditingId] = useState("");
 
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([]);
@@ -118,7 +129,24 @@ function App() {
   const canStart = grade && subject;
   const canChat = started && !showSelector;
 
-  const API_BASE = process.env.REACT_APP_API_BASE || "http://localhost:5000";
+  const API_BASE =
+    process.env.REACT_APP_API_BASE ||
+    (window.location.hostname === "localhost" && window.location.port === "3000"
+      ? "http://localhost:5000"
+      : "");
+
+  const defaultButtonStyle = {
+    position: "fixed",
+    bottom: 20,
+    right: 20
+  };
+  const defaultPanelStyle = {
+    position: "fixed",
+    bottom: 90,
+    right: 20
+  };
+  const buttonStyle = { ...defaultButtonStyle, ...(widgetConfig.buttonStyle || {}) };
+  const panelStyle = { ...defaultPanelStyle, ...(widgetConfig.panelStyle || {}) };
 
   // Generate userId for local chat storage
   const userId = useRef(
@@ -136,11 +164,10 @@ function App() {
 
     const userMessage = input;
     const timestamp = new Date().toISOString();
+    const userEntry = { role: "user", text: userMessage, time: timestamp };
+    const baseMessages = [...messages, userEntry];
 
-    setMessages(prev => [
-      ...prev,
-      { role: "user", text: userMessage, time: timestamp }
-    ]);
+    setMessages(baseMessages);
     setInput("");
     setIsTyping(true);
 
@@ -152,14 +179,14 @@ function App() {
       });
       const data = await res.json();
 
+      const aiEntry = { role: "ai", text: data.reply.text, videos: data.reply.videos || [], time: new Date().toISOString() };
+      const updatedMessages = [...baseMessages, aiEntry];
+
       setMessages(prev => {
         // mark new message if chat is closed
         if (!intercomOpen) setHasNewMessage(true);
 
-        return [
-          ...prev,
-          { role: "ai", text: data.reply.text, videos: data.reply.videos || [], time: new Date().toISOString() }
-        ];
+        return updatedMessages;
       });
 
       // save history
@@ -170,18 +197,19 @@ function App() {
           grade,
           subject,
           userId: userId.current,
-          messages: [
-            ...messages,
-            { role: "user", text: userMessage, createdAt: new Date() },
-            { role: "ai", text: data.reply.text, videos: data.reply.videos || [], createdAt: new Date() }
-          ]
+          messages: updatedMessages.map(m => ({
+            role: m.role,
+            text: m.text,
+            videos: m.videos || [],
+            createdAt: new Date(m.time || Date.now())
+          }))
         })
       }).catch(err => console.error("Failed to save chat history", err));
 
     } catch (err) {
       setMessages(prev => [
         ...prev,
-        { role: "ai", text: "âŒ Server error", time: new Date().toISOString() }
+        { role: "ai", text: "? Server error", time: new Date().toISOString() }
       ]);
     } finally {
       setIsTyping(false);
@@ -207,22 +235,152 @@ function App() {
     if (intercomOpen) setHasNewMessage(false);
   }, [intercomOpen]);
 
+  const loadKnowledge = useCallback(async (filters = {}) => {
+    try {
+      const params = new URLSearchParams();
+      if (filters.grade) params.set("grade", filters.grade);
+      if (filters.subject) params.set("subject", filters.subject);
+      if (filters.chapter) params.set("chapter", filters.chapter);
+      const qs = params.toString();
+      const res = await fetch(`${API_BASE}/api/knowledge${qs ? `?${qs}` : ""}`);
+      const text = await res.text();
+      let data;
+      try {
+        data = JSON.parse(text);
+      } catch (e) {
+        console.error("Knowledge API returned non-JSON:", text);
+        return;
+      }
+      if (!res.ok) {
+        console.error("Knowledge API error:", data?.error || text);
+        return;
+      }
+      setKnowledgeItems(Array.isArray(data.items) ? data.items : []);
+    } catch (err) {
+      console.error("Failed to load knowledge", err);
+    }
+  }, [API_BASE]);
+
+  useEffect(() => {
+    if (!showKnowledgeModal) return;
+    loadKnowledge({
+      grade: knowledgeGrade,
+      subject: knowledgeSubject,
+      chapter: knowledgeChapter
+    });
+  }, [showKnowledgeModal, knowledgeGrade, knowledgeSubject, knowledgeChapter, loadKnowledge]);
+
+  const handleKnowledgeSubmit = async () => {
+    if (!knowledgeGrade || !knowledgeSubject) {
+      setKnowledgeError("Please select grade and subject.");
+      return;
+    }
+
+    if (!knowledgeText.trim() && !knowledgeFile) {
+      setKnowledgeError("Please provide text or a PDF.");
+      return;
+    }
+
+    setKnowledgeSaving(true);
+    setKnowledgeError("");
+
+    try {
+      const formData = new FormData();
+      formData.append("grade", knowledgeGrade);
+      formData.append("subject", knowledgeSubject);
+      if (knowledgeText.trim()) formData.append("text", knowledgeText.trim());
+      if (knowledgeChapter.trim()) formData.append("chapter", knowledgeChapter.trim());
+      if (knowledgeFile) formData.append("file", knowledgeFile);
+
+      const isEdit = Boolean(knowledgeEditingId);
+      const res = await fetch(`${API_BASE}/api/knowledge${isEdit ? `/${knowledgeEditingId}` : ""}`, {
+        method: isEdit ? "PUT" : "POST",
+        body: formData
+      });
+      const text = await res.text();
+      let data;
+      try {
+        data = JSON.parse(text);
+      } catch (e) {
+        setKnowledgeError("Upload failed (server returned non-JSON)");
+        return;
+      }
+      if (!res.ok) {
+        setKnowledgeError(data?.error || "Upload failed");
+      } else {
+        setKnowledgeText("");
+        setKnowledgeChapter("");
+        setKnowledgeFile(null);
+        setKnowledgeGrade("");
+        setKnowledgeSubject("");
+        setKnowledgeEditingId("");
+        await loadKnowledge();
+      }
+    } catch (err) {
+      setKnowledgeError("Upload failed");
+    } finally {
+      setKnowledgeSaving(false);
+    }
+  };
+
+  const startEditKnowledge = item => {
+    setKnowledgeEditingId(item._id || item.id || "");
+    setKnowledgeGrade(item.grade || "");
+    setKnowledgeSubject(item.subject || "");
+    setKnowledgeChapter(item.chapter || "");
+    setKnowledgeText(item.text || "");
+    setKnowledgeFile(null);
+    setKnowledgeError("");
+  };
+
+  const cancelEditKnowledge = () => {
+    setKnowledgeEditingId("");
+    setKnowledgeGrade("");
+    setKnowledgeSubject("");
+    setKnowledgeChapter("");
+    setKnowledgeText("");
+    setKnowledgeFile(null);
+    setKnowledgeError("");
+  };
+
+  const deleteKnowledge = async id => {
+    if (!id) return;
+    try {
+      const res = await fetch(`${API_BASE}/api/knowledge/${id}`, {
+        method: "DELETE"
+      });
+      if (!res.ok) {
+        const text = await res.text();
+        console.error("Delete failed:", text);
+        return;
+      }
+      await loadKnowledge({
+        grade: knowledgeGrade,
+        subject: knowledgeSubject,
+        chapter: knowledgeChapter
+      });
+    } catch (err) {
+      console.error("Delete failed:", err);
+    }
+  };
+
   return (
     <>
       {/* Floating Intercom Button */}
       <div
         className="intercom-btn"
         onClick={() => setIntercomOpen(prev => !prev)}
+        style={buttonStyle}
       >
         {intercomOpen ? <RxCross2 /> : <IoIosCloudOutline />}
         {!intercomOpen && hasNewMessage && <span className="new-msg-badge" />}
       </div>
 
       {/* Chat Window */}
-      <div className="intercom-wrapper" style={{ display: intercomOpen ? "block" : "none" }}>
+      <div className="intercom-wrapper" style={{ display: intercomOpen ? "block" : "none", ...panelStyle }}>
         <div className="chat-container">
           <div className="chat-container">
-            <h2>á€žá€¯á€á€™á€­á€”á€ºá€€á€¼á€®á€¸</h2>
+            <h2>သုခမိန်ကြီး</h2>
 
             {/* Reselect button */}
             {started && !showSelector && (
@@ -242,6 +400,15 @@ function App() {
               title="Search History"
             >
               <FaHistory />
+            </button>
+
+            {/* Knowledge button */}
+            <button
+              className="knowledge-btn"
+              onClick={() => { setShowKnowledgeModal(true); }}
+              title="Knowledge"
+            >
+              K
             </button>
 
             {showHistory && (
@@ -293,7 +460,7 @@ function App() {
 
             {/* Chat Area */}
             <div className="chat-box">
-              {!started && <div className="system-msg">ðŸ“˜ Grade á€”á€¾á€„á€·á€º Subject á€€á€­á€¯ á€›á€½á€±á€¸á€•á€¼á€®á€¸ Start á€€á€­á€¯á€”á€¾á€­á€•á€ºá€•á€«</div>}
+              {!started && <div className="system-msg">Select Grade & Subject to Start</div>}
 
               {messages.map((m, i) => (
                 <div key={i} className={`message ${m.role}`}>
@@ -302,8 +469,9 @@ function App() {
 
                   {m.videos && m.videos.length > 0 && m.videos.map(video => (
                     <div key={video.video_id} className="video-link">
-                      <a href={video.embed_url} target="_blank" rel="noreferrer">ðŸŽ¬ {video.title_en}</a>
+                      <a href={video.embed_url} target="_blank" rel="noreferrer">?? {video.title_en}</a>
                     </div>
+
                   ))}
                 </div>
               ))}
@@ -336,9 +504,129 @@ function App() {
           </div>
         </div>
       </div>
+
+      {/* Knowledge Modal */}
+      {showKnowledgeModal && (
+        <div className="knowledge-modal-overlay" onClick={() => setShowKnowledgeModal(false)}>
+          <div className="knowledge-modal" onClick={e => e.stopPropagation()}>
+            <div className="knowledge-modal-header">
+              <div>Knowledge Center (Demo)</div>
+              <button
+                className="knowledge-close-btn"
+                onClick={() => setShowKnowledgeModal(false)}
+              >
+                <RxCross2 />
+              </button>
+            </div>
+
+            <div className="knowledge-form">
+              <div className="knowledge-field">
+                <label>Grade</label>
+                <select
+                  value={knowledgeGrade}
+                  onChange={e => { setKnowledgeGrade(e.target.value); setKnowledgeSubject(""); }}
+                >
+                  <option value="">Select Grade</option>
+                  <option value="gradekg">Kindergarten</option>
+                  <option value="grade1">Grade 1</option>
+                  <option value="grade2">Grade 2</option>
+                  <option value="grade3">Grade 3</option>
+                  <option value="grade4">Grade 4</option>
+                  <option value="grade5">Grade 5</option>
+                </select>
+              </div>
+
+              <div className="knowledge-field">
+                <label>Subject</label>
+                <select
+                  value={knowledgeSubject}
+                  onChange={e => setKnowledgeSubject(e.target.value)}
+                  disabled={!knowledgeGrade}
+                >
+                  <option value="">Select Subject</option>
+                  {knowledgeGrade && gradeSubjects[knowledgeGrade].map(sub => (
+                    <option key={sub.value} value={sub.value}>{sub.label}</option>
+                  ))}
+                </select>
+              </div>
+
+              <div className="knowledge-field">
+                <label>Chapter</label>
+                <input
+                  type="text"
+                  value={knowledgeChapter}
+                  onChange={e => setKnowledgeChapter(e.target.value)}
+                  placeholder="e.g., 1 or lesson title"
+                />
+              </div>
+
+              <div className="knowledge-field">
+                <label>Notes</label>
+                <textarea
+                  value={knowledgeText}
+                  onChange={e => setKnowledgeText(e.target.value)}
+                  placeholder="Paste or type lesson notes..."
+                  rows={4}
+                />
+              </div>
+
+              <div className="knowledge-field">
+                <label>Attach File</label>
+                <input
+                  type="file"
+                  accept="application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                  onChange={e => setKnowledgeFile(e.target.files?.[0] || null)}
+                />
+                <div className="knowledge-hint">PDF or DOCX, max 25MB.</div>
+              </div>
+
+              {knowledgeError && <div className="knowledge-error">{knowledgeError}</div>}
+
+              <button
+                className="knowledge-submit-btn"
+                onClick={handleKnowledgeSubmit}
+                disabled={knowledgeSaving}
+              >
+                {knowledgeSaving
+                  ? "Saving..."
+                  : knowledgeEditingId
+                    ? "Save Changes"
+                    : "Add Knowledge"}
+              </button>
+              {knowledgeEditingId && (
+                <button
+                  className="knowledge-cancel-btn"
+                  onClick={cancelEditKnowledge}
+                  disabled={knowledgeSaving}
+                >
+                  Cancel Edit
+                </button>
+              )}
+            </div>
+
+            <div className="knowledge-list">
+              <div className="knowledge-list-title">Uploaded Items</div>
+              {knowledgeItems.length === 0 && <div className="knowledge-empty">No items yet</div>}
+              {knowledgeItems.map(item => (
+                <div className="knowledge-item" key={item._id || item.id}>
+                  <div className="knowledge-item-title">{item.grade} / {item.subject}</div>
+                  {item.chapter && <div className="knowledge-item-chapter">Chapter: {item.chapter}</div>}
+                  {item.text && <div className="knowledge-item-text">Text: {item.text.slice(0, 120)}{item.text.length > 120 ? "..." : ""}</div>}
+                  {item.fileName && <div className="knowledge-item-file">PDF: {item.fileName}</div>}
+                  <div className="knowledge-item-actions">
+                    <button onClick={() => startEditKnowledge(item)}>Edit</button>
+                    <button onClick={() => deleteKnowledge(item._id || item.id)}>Delete</button>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
     </>
   );
 }
 
 export default App;
+
 

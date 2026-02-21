@@ -1,7 +1,9 @@
 import axios from "axios";
 
+const TRANSLATOR_URL = process.env.TRANSLATOR_URL || "http://localhost:8000";
+
 export async function translate(text, direction) {
-  const res = await axios.post("http://localhost:8000/translate", {
+  const res = await axios.post(`${TRANSLATOR_URL}/translate`, {
     text,
     direction
   });

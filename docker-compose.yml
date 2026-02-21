@@ -1,9 +1,42 @@
-version: "3.8"
-
 services:
+  mongo:
+    image: mongo:7
+    container_name: ai-mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - ai-network
+
+  translator:
+    build:
+      context: ./backend/server
+      dockerfile: Dockerfile.translator
+    container_name: ai-translator
+    restart: unless-stopped
+    environment:
+      - NLLB_MODEL_NAME=facebook/nllb-200-distilled-600M
+      - NLLB_CACHE_DIR=/app/.model_cache
+    volumes:
+      - translator_model_cache:/app/.model_cache
+    ports:
+      - "8000:8000"
+    networks:
+      - ai-network
+
   backend:
     build: ./backend/server
     container_name: ai-backend
+    restart: unless-stopped
+    depends_on:
+      - mongo
+      - translator
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/techkhit
+      - TRANSLATOR_URL=http://translator:8000
+      - CORS_ORIGINS=http://localhost:8080,http://localhost:5050
     ports:
       - "5000:5000"
     networks:
@@ -12,19 +45,22 @@ services:
   frontend:
     build: ./frontend/client
     container_name: ai-frontend
+    restart: unless-stopped
     depends_on:
       - backend
     ports:
-    - "5050:80"  # map host 5050 to container 80
+      - "5050:80"
     networks:
       - ai-network
 
   proxy:
     image: nginx:alpine
     container_name: ai-proxy
+    restart: unless-stopped
     depends_on:
       - frontend
       - backend
+      - translator
     ports:
       - "8080:80"
     volumes:
@@ -35,3 +71,7 @@ services:
 networks:
   ai-network:
     driver: bridge
+
+volumes:
+  mongo_data:
+  translator_model_cache:
